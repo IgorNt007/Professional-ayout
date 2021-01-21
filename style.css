@@ -952,6 +952,20 @@
     height: 48px;
 }
 
+.browse-all-button-1 {
+    
+}
+
+.browse-all-button:hover {
+    background-color: #ffffff;
+    border: 1px solid #f16d7f;
+}
+
+.browse-all-button:hover .browse-all-text {
+    background-color: #ffffff;
+    color: #f16d7f;
+}
+
 .browse-all-text {
     font-family: Lato;
     font-size: 16px;
@@ -960,7 +974,7 @@
     letter-spacing: 0.025em;
     color: #ffffff;
     margin-left: 24px;
-    margin-top: -3px;
+    margin-top: 0px;
     text-decoration: none;
 }
 
@@ -1263,6 +1277,11 @@ reviews-left-right {
     padding: 0 28px;
 }
 
+.reviews-input_fields_contacts:hover {
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+}
+
 .reviews-input_fields_contacts:focus {
     outline:none !important;
 }
@@ -1286,6 +1305,13 @@ reviews-left-right {
     background-color: #f16d7f;
     margin-left: -0px;
     margin-top: -0px
+}
+
+.reviews-search-subscribe:hover {
+    color: #f16d7f;
+    border: 1px solid;
+    border-color: #f16d7f;
+    background-color: #ffffff;
 }
 
 .reviews-search-subscribe:focus {
@@ -1455,4 +1481,13 @@ footer-2-p2 {
 
 .icons-li {
     margin-left: 8px;
+}
+
+.size-icons {
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.size-icons:hover {
+    color: #f16d7f;
 }

@@ -9,18 +9,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="cont-header">
+    <header class="cont-header">
         <div class="header">
            <div class="header-left">
-               <div class="logo-img">
+               <logo class="logo-img">
                    <a href="index.html"><img src="img/logo.jpg" alt="logo"></a>
-               </div>
+               </logo>
                <a class="logo-link" href="index.html">
                    <div class="logo">
                        <div class="logo-text">DNARB</div>
                    </div>
                </a>
-               <div class="search">
+               <nav class="search">
                     <div class="browse-div">
                         <ul class="browse-menu">
                             <li><a class="browse" href="#">Browse <i class="fa fa-caret-down"></i></a>
@@ -33,13 +33,13 @@
                     </div>
                     <input class="input_fields_contacts" type="text" placeholder="Search for Item..." type>
                     <button class="input_submit" name="page" value="main" type="submit"></button>
-                </div>
+                </nav>
            </div>
            <div class="header-right">
-                <div class="basket">
+                <basket class="basket">
                     <a href="#"><img src="img/basket.png" alt="Корзина"></a>
-                </div>
-                <div class="my-acc-div">
+                </basket>
+                <nav class="my-acc-div">
                     <ul class="my-acc-menu">
                         <li><a class="my-acc" href="#">My Account <i class="fa fa-caret-down"></i></a>
                             <ul class="my-acc-menu-down">
@@ -48,11 +48,11 @@
                             </ul>
                         </li>
                     </ul>
-                </div>
+                </nav>
            </div>
         </div>
-    </div>
-    <div class="menu">
+    </header>
+    <main class="menu">
         <div class="home">
             <a class="links-menu" href="index.html">HOME</a>
         </div>
@@ -74,7 +74,7 @@
         <div class="hot-deals">
             <a class="links-menu" href="#">HOT DEALS</a>
         </div>
-    </div>
+    </main>
     <div class="cont-brand">
         <div class="brand">
             <div class="brand-container">
@@ -145,15 +145,15 @@
                 </div> 
             </div>
     </div>
-    <div class="fetured-it">
+    <figure class="fetured-it">
         <div class="fetured-items">
             Fetured Items
         </div>
         <div class="shop-f-item">
             Shop for items based on what we featured in this week
         </div>
-    </div>
-    <div class="products">
+    </figure>
+    <figure class="products">
         <div class="products-up">
             <div class="products-up1">
                 <div class="prod-1">
@@ -258,7 +258,7 @@
                 <a class="sell-4" href="">$52.00</a>
             </div>
         </div>
-    </div>
+    </figure>
     <div class="browse-all-product">
         <a class="browse-all-link" href="">
             <div class="browse-all-button">
@@ -274,7 +274,7 @@
             <div class="slider-for-woman">FOR WOMEN</div>
         </div>
         <div class="slider-right">
-            <div class="slider-right-1">
+            <article class="slider-right-1">
                 <div class="slider-right-1-left">
                     <img class="img-slider-right-left" src="img/slider_right_1_left.png" alt="">
                 </div>
@@ -286,8 +286,8 @@
                         Worldwide delivery on all. Authorit <br> tively morph next-generation innov <br> tion with extensive models.
                     </p>
                 </div>
-            </div>
-            <div class="slider-right-2">
+            </article>
+            <article class="slider-right-2">
                 <div class="slider-right-2-left">
                     <img class="img-slider-right-left" src="img/slider_right_2_left.png" alt="">
                 </div>
@@ -299,8 +299,8 @@
                         Worldwide delivery on all. Authorit <br> tively morph next-generation innov <br> tion with extensive models.
                     </p>
                 </div>
-            </div>
-            <div class="slider-right-3">
+            </article>
+            <article class="slider-right-3">
                 <div class="slider-right-3-left">
                     <img class="img-slider-right-left" src="img/slider_right_3_left.png" alt="">
                 </div>
@@ -312,11 +312,11 @@
                         Worldwide delivery on all. Authorit <br> tively morph next-generation innov <br> tion with extensive models.
                     </p>
                 </div>
-            </div>
+            </article>
         </div>
     </div>
     <div class="reviews">
-        <div class="reviews-left">
+        <article class="reviews-left">
             <div class="reviews-left-left">
                 <img class="reviews-img" src="img/reviews_img.png" alt="">
             </div>
@@ -342,7 +342,7 @@
                     </a>
                 </div>
             </div>
-        </div>
+        </article>
         <div class="reviews-right">
            <div class="subscribe">
                SUBSCRIBE
@@ -351,12 +351,12 @@
                FOR OUR NEWLETTER AND PROMOTION
            </div>
            <div class="reviews-search">
-                <input class="reviews-input_fields_contacts" type="text" placeholder="Enter Your Email" type>
-                <button class="reviews-search-subscribe" name="page" value="main" type="submit"><p class="reviews-input_submit">Subscribe</p></button>
+                <input class="reviews-input_fields_contacts" name="email" type="email" placeholder="Enter Your Email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required type>
+                <button class="reviews-search-subscribe" name="sabmit" value="submit" type="submit"><p class="reviews-input_submit">Subscribe</p></button>
             </div>
         </div>
     </div>
-    <div class="footer">
+    <footer class="footer">
         <div class="footer-1">
             <div class="footer-logo-name">
                 <div class="footer-logo-img">
@@ -379,7 +379,7 @@
             <div class="footer-2-p">
                 COMPANY
             </div>
-            <div class="footer-ul">
+            <nav class="footer-ul">
                 <ul class="footer-ul">
                     <li class="footer-ul-li"><a class="footer-ul-li-links" href="">HOME</a></li>
                     <li class="footer-ul-li-1"><a class="footer-ul-li-links" href="">SHOP</a></li>
@@ -387,13 +387,13 @@
                     <li class="footer-ul-li-1"><a class="footer-ul-li-links" href="">How It Works</a></li>
                     <li class="footer-ul-li-1"><a class="footer-ul-li-links" href="">Contacts</a></li>
                 </ul>
-            </div>
+            </nav>
         </div>
         <div class="footer-3">
             <div class="footer-2-p">
                 INFORMATION
             </div>
-            <div class="footer-ul">
+            <nav class="footer-ul">
                 <ul class="footer-ul">
                     <li class="footer-ul-li"><a class="footer-ul-li-links" href="">Tearms & Condition</a></li>
                     <li class="footer-ul-li-1"><a class="footer-ul-li-links" href="">Privacy Policy</a></li>
@@ -401,13 +401,13 @@
                     <li class="footer-ul-li-1"><a class="footer-ul-li-links" href="">How to Sell</a></li>
                     <li class="footer-ul-li-1"><a class="footer-ul-li-links" href="">Promotion</a></li>
                 </ul>
-            </div>
+            </nav>
         </div>
         <div class="footer-4">
             <div class="footer-2-p">
                 SHOP CATEGORY
             </div>
-            <div class="footer-ul">
+            <nav class="footer-ul">
                 <ul class="footer-ul">
                     <li class="footer-ul-li"><a class="footer-ul-li-links" href="">Men</a></li>
                     <li class="footer-ul-li-1"><a class="footer-ul-li-links" href="">Women</a></li>
@@ -415,32 +415,32 @@
                     <li class="footer-ul-li-1"><a class="footer-ul-li-links" href="">Apparel</a></li>
                     <li class="footer-ul-li-1"><a class="footer-ul-li-links" href="">Brows All</a></li>
                 </ul>
-            </div>
+            </nav>
         </div>
-    </div>
-    <div class="footer-down">
+    </footer>
+    <footer class="footer-down">
         <div class="copirate">
             &copy 2017 Brand All Rights Reserved
         </div>
         <div class="icons">
             <ul class="icons-ul">
                 <li class="icons-li">
-                    <a href=""><img src="img/icon_face_book.jpg" alt=""></a>
+                    <a href=""><i class="size-icons fa fa-facebook-square" aria-hidden="true"></i></a>
                 </li>
                 <li class="icons-li">
-                    <a href=""><img src="img/icon_tviter.jpg" alt=""></a>
+                    <a href=""><i class="size-icons fa fa-twitter-square" aria-hidden="true"></i></a>
                 </li>
                 <li class="icons-li">
-                    <a href=""><img src="img/icon_instagram.jpg" alt=""></a>
+                    <a href=""><i class="size-icons fa fa-linkedin-square" aria-hidden="true"></i></a>
                 </li>
                 <li class="icons-li">
-                    <a href=""><img src="img/icon.jpg" alt=""></a>
+                    <a href=""><i class="size-icons fa fa-pinterest-square" aria-hidden="true"></i></a>
                 </li>
                 <li class="icons-li">
-                    <a href=""><img src="img/google.jpg" alt=""></a>
+                    <a href=""><i class="size-icons fa fa-google-plus-square" aria-hidden="true"></i></a>
                 </li>
             </ul>
         </div>
-    </div>
+    </footer>
 </body>
 </html>
