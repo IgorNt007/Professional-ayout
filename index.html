@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
@@ -8,27 +9,51 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header class="cont-header">
         <div class="header">
-           <div class="header-left">
-               <logo class="logo-img">
-                   <a href="index.html"><img src="img/logo.jpg" alt="logo"></a>
-               </logo>
-               <a class="logo-link" href="index.html">
-                   <div class="logo">
-                       <div class="logo-text">DNARB</div>
-                   </div>
-               </a>
-               <nav class="search">
+            <div class="header-left">
+                <logo class="logo-img">
+                    <a href="index.html"><img src="img/logo.jpg" alt="logo"></a>
+                </logo>
+                <a class="logo-link" href="index.html">
+                    <div class="logo">
+                        <div class="logo-text">DNARB</div>
+                    </div>
+                </a>
+                <nav class="search">
                     <a class="browse-div-link" href="">
                         <div class="browse-div">
                             <ul class="browse-menu">
                                 <li><a class="browse" href="#">Browse <i class="fa fa-caret-down"></i></a>
-                                    <ul class="browse-menu-down">
-                                        <li class="browse-menu-down-li"><a class="browse-menu-down-a" href="">Item 1</a></li>
-                                        <li class="browse-menu-down-li"><a class="browse-menu-down-a" href="">Item 2</a></li>
-                                    </ul>
+                                    <div class="browse-drop-down">
+                                        <div class="browse-drop-down-woman">
+                                            <p class="browse-drop-down-woman-p">WOMAN</p>
+                                            <ul class="browse-drop-down-men-ul">
+                                                <li class="browse-drop-down-men-li"><a class="browse-drop-down-men-li" href="">Dresses</a></li>
+                                                <li class="browse-drop-down-men-li"><a class="browse-drop-down-men-li" href="">Tops</a></li>
+                                                <li class="browse-drop-down-men-li"><a class="browse-drop-down-men-li" href="">Sweaters/Knits</a></li>
+                                                <li class="browse-drop-down-men-li"><a class="browse-drop-down-men-li" href="">Jackets/Coats</a></li>
+                                                <li class="browse-drop-down-men-li"><a class="browse-drop-down-men-li" href="">Blazers</a></li>
+                                                <li class="browse-drop-down-men-li"><a class="browse-drop-down-men-li" href="">Denim</a></li>
+                                                <li class="browse-drop-down-men-li"><a class="browse-drop-down-men-li" href="">Leggings/Pants</a></li>
+                                                <li class="browse-drop-down-men-li"><a class="browse-drop-down-men-li" href="">Skirts/Shorts</a></li>
+                                                <li class="browse-drop-down-men-li"><a class="browse-drop-down-men-li" href="">Accessories</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="browse-drop-down-men">
+                                            <p class="browse-drop-down-men-p">MEN</p>
+                                            <ul class="browse-drop-down-men-ul">
+                                                <li class="browse-drop-down-men-li"><a class="browse-drop-down-men-li" href="">Tees/Tank tops</a></li>
+                                                <li class="browse-drop-down-men-li"><a class="browse-drop-down-men-li" href="">Shirts/Polos</a></li>
+                                                <li class="browse-drop-down-men-li"><a class="browse-drop-down-men-li" href="">Sweaters</a></li>
+                                                <li class="browse-drop-down-men-li"><a class="browse-drop-down-men-li" href="">Sweatshirts/Hoodies</a></li>
+                                                <li class="browse-drop-down-men-li"><a class="browse-drop-down-men-li" href="">Blazers</a></li>
+                                                <li class="browse-drop-down-men-li"><a class="browse-drop-down-men-li" href="">Jackets/vests</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
@@ -36,48 +61,170 @@
                     <input class="input_fields_contacts" type="text" placeholder="Search for Item..." type>
                     <button class="input_submit" name="page" value="main" type="submit"></button>
                 </nav>
-           </div>
-           <div class="header-right">
+            </div>
+            <div class="header-right">
                 <basket class="basket">
-                    <a href="#"><img src="img/basket.png" alt="Корзина"></a>
+                    <a href="shopping-cart.html"><img src="img/basket.png" alt="Корзина"></a>
                 </basket>
                 <a class="my-acc-div-link" href="">
                     <nav class="my-acc-div">
                         <ul class="my-acc-menu">
                             <li><a class="my-acc" href="#">My Account <i class="fa fa-caret-down"></i></a>
+<<<<<<< Updated upstream
                                 <ul class="my-acc-menu-down">
                                     <li class="my-acc-menu-down-li"><a class="my-acc-menu-down-a" href="">Item 1</a></li>
                                     <li class="my-acc-menu-down-li"><a class="my-acc-menu-down-a" href="">Item 2</a></li>
                                 </ul>
+=======
+                                <div class="my-acc-drop-down">
+                                    <div class="my-acc-drop-down-up">
+                                        <div class="my-acc-drop-down-up-content">
+                                            <a href=""><img class="my-acc-drop-down-up-img" src="img/my_acc_drop_down_up.jpg" alt=""></a>
+                                            <a class="rebox-zane" href="">Rebox Zane</a>
+                                            <div class="star-rating">
+                                                    <div class="star-rating__wrap">
+                                                        <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+                                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                                        <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+                                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                                        <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+                                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                                        <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+                                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                                        <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+                                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                                  </div>
+                                            </div>
+                                            <p class="my-acc-drop-down-sale">
+                                                1 <x class="my-acc-drop-down-sale-x">x</x> $250
+                                            </p>
+                                            <a href=""><i class="fa fa-times-circle times-circle" aria-hidden="true"></i></a>
+                                        </div>
+                                        <div class="br">
+                                        </div>
+                                    </div>
+                                    <div class="my-acc-drop-down-up-center">
+                                        <div class="my-acc-drop-down-up-content">
+                                            <a href=""><img class="my-acc-drop-down-up-img" src="img/my_acc_drop_down_content.jpg" alt=""></a>
+                                            <a class="rebox-zane" href="">Rebox Zane</a>
+                                            <div class="star-rating">
+                                                    <div class="star-rating__wrap">
+                                                        <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+                                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                                        <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+                                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                                        <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+                                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                                        <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+                                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                                        <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+                                                        <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                                  </div>
+                                            </div>
+                                            <p class="my-acc-drop-down-sale">
+                                                1 <x class="my-acc-drop-down-sale-x">x</x> $250
+                                            </p>
+                                            <a href=""><i class="fa fa-times-circle times-circle" aria-hidden="true"></i></a>
+                                        </div>
+                                        <div class="br">
+                                        </div>
+                                    </div>
+                                    <div class="my-acc-drop-down-down">
+                                       <div class="p-my-acc-drop-down-down">
+                                            <p class="my-acc-drop-down-down-total">TOTAL</p>
+                                            <p class="my-acc-drop-down-down-sale">$500.00</p>
+                                       </div>
+                                       <a href="">
+                                            <button class="button-checkout" name="page" value="main" type="submit">
+                                               <a class="checkout" href="checkout.html"><p class="checkout">CHECKOUT</p></a>
+                                           </button> 
+                                       </a>
+                                       <a href="">
+                                            <button class="button-go-to-cart" name="page" value="main" type="submit">
+                                               <a class="go-to-cart" href=""><p class="go-to-cart">GO TO CART</p></a>
+                                           </button>
+                                       </a>
+                                    </div>
+                                </div>
+>>>>>>> Stashed changes
                             </li>
                         </ul>
                     </nav>
                 </a>
-           </div>
+            </div>
         </div>
     </header>
     <main class="menu">
-        <div class="home">
-            <a class="links-menu" href="index.html">HOME</a>
-        </div>
-        <div class="man">
-            <a class="links-menu" href="#">MAN</a>
-        </div>
-        <div class="woman">
-            <a class="links-menu" href="#">WOMAN</a>
-        </div>
-        <div class="kids-menu">
-            <a class="links-menu" href="#">KIDS</a>
-        </div>
-        <div class="accoseriese">
-            <a class="links-menu" href="#">ACCOSERIESE</a>
-        </div>
-        <div class="featured">
-            <a class="links-menu" href="#">FEATURED</a>
-        </div>
-        <div class="hot-deals">
-            <a class="links-menu" href="#">HOT DEALS</a>
-        </div>
+       <ul class="menu-ul">
+           <li class="home">
+               <a href="index.html" class="links-menu">HOME</a>
+           </li>
+           <li class="man">
+               <a href="" class="links-menu">MAN</a>
+               <div class="mega-box">
+                        <div class="mega-item-box">
+                            <h3 class="mega-hading">Women</h3>
+                            <div class="mega-item">
+                                <ul>
+                                    <li class="mega-menu-list"><a class="mega-link" href="#">Dresses</a></li>
+                                    <li class="mega-menu-list"><a class="mega-link" href="#">Tops</a></li>
+                                    <li class="mega-menu-list"><a class="mega-link" href="#">Sweaters/Knits</a></li>
+                                    <li class="mega-menu-list"><a class="mega-link" href="#">Jackets/Coats</a></li>
+                                    <li class="mega-menu-list"><a class="mega-link" href="#">Blazers</a></li>
+                                    <li class="mega-menu-list"><a class="mega-link" href="#">Denim</a></li>
+                                    <li class="mega-menu-list"><a class="mega-link" href="#">Leggings/Pants</a></li>
+                                    <li class="mega-menu-list"><a class="mega-link" href="#">Skirts/Shorts</a></li>
+                                    <li class="mega-menu-list"><a class="mega-link" href="#">Accessories </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mega-item-box">
+                            <h3 class="mega-hading">Women</h3>
+                            <div class="mega-item">
+                                <ul>
+                                    <li class="mega-menu-list"><a class="mega-link" href="#">Dresses</a></li>
+                                    <li class="mega-menu-list"><a class="mega-link" href="#">Tops</a></li>
+                                    <li class="mega-menu-list"><a class="mega-link" href="#">Sweaters/Knits</a></li>
+                                    <li class="mega-menu-list"><a class="mega-link" href="#">Jackets/Coats</a></li>
+                                </ul>
+                                <h3 class="mega-hading">Women</h3>
+                                <ul>
+                                    <li class="mega-menu-list"><a class="mega-link" href="#">Dresses</a></li>
+                                    <li class="mega-menu-list"><a class="mega-link" href="#">Tops</a></li>
+                                    <li class="mega-menu-list"><a class="mega-link" href="#">Sweaters/Knits</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mega-item-box">
+                            <h3 class="mega-hading">Women</h3>
+                            <div class="mega-item">
+                                <ul>
+                                    <li class="mega-menu-list"><a class="mega-link" href="#">Dresses</a></li>
+                                    <li class="mega-menu-list"><a class="mega-link" href="#">Tops</a></li>
+                                    <li class="mega-menu-list"><a class="mega-link" href="#">Sweaters/Knits</a></li>
+                                    <li class="mega-menu-list"><a class="mega-link" href="#">Jackets/Coats</a></li>
+                                </ul>
+                            <a class="mega-item-img" href=""><img class="mega-item-img" src="img/mega_menu_img.jpg" alt=""></a>
+                            </div>
+                        </div>
+                </div>
+           </li>
+           <li class="woman">
+               <a href="single-page.html" class="links-menu">WOMAN</a>
+           </li>
+           <li class="kids-menu">
+               <a href="" class="links-menu">KIDS</a>
+           </li>
+           <li class="accoseriese">
+               <a href="" class="links-menu">ACCOSERIESE</a>
+           </li>
+           <li class="featured">
+               <a href="" class="links-menu">FEATURED</a>
+           </li>
+           <li class="hot-deals">
+               <a href="" class="links-menu">HOT DEALS</a>
+           </li>
+       </ul>
     </main>
     <div class="cont-brand">
         <div class="brand">
@@ -89,7 +236,7 @@
                 <div class="of-luxerious">
                     OF LUXERIOUS
                     <div class="fashion">
-                    FASHION
+                        FASHION
                     </div>
                 </div>
             </div>
@@ -97,57 +244,57 @@
     </div>
     <div class="content-menu">
         <div class="content-menu-left">
-                    <div class="for-men">
-                       <a class="content-menu-links" href="#">
-                            <div class="men-container">
-                               <div class="hot-deal">
-                                    HOT DEAL
-                                </div>
-                                <div class="men">
-                                    FOR MEN
-                                </div>
-                           </div>
-                       </a>
-                    </div>
-                <div class="accesories">
-                    <a class="content-menu-links" href="#">
-                        <div class="accesories-container">
-                            <div class="luxirous-trendy">
-                                LUXIROUS & TRENDY
-                            </div>
-                            <div class="acces">
-                                ACCESORIES
-                            </div>
+            <div class="for-men">
+                <a class="content-menu-links" href="#">
+                    <div class="men-container">
+                        <div class="hot-deal">
+                            HOT DEAL
                         </div>
-                    </a>
-                </div> 
+                        <div class="men">
+                            FOR MEN
+                        </div>
+                    </div>
+                </a>
             </div>
-            <div class="content-menu-right">
-                <div class="for-women">
-                  <a class="content-menu-links" href="#">
-                       <div class="women-container">
-                           <div class="offer">
-                                30% OFFER
-                            </div>
-                            <div class="women">
-                                WOMEN
-                            </div>
-                       </div>
-                    </a>
-                </div>
-                <div class="for-kids">
-                   <a class="content-menu-links" href="#">
-                        <div class="kids-container">
-                           <div class="new-arrivals">
-                                NEW ARRIAVALS
-                            </div>
-                            <div class="kids">
-                                FOR KIDS
-                            </div>
-                       </div>
-                    </a>
-                </div> 
+            <div class="accesories">
+                <a class="content-menu-links" href="#">
+                    <div class="accesories-container">
+                        <div class="luxirous-trendy">
+                            LUXIROUS & TRENDY
+                        </div>
+                        <div class="acces">
+                            ACCESORIES
+                        </div>
+                    </div>
+                </a>
             </div>
+        </div>
+        <div class="content-menu-right">
+            <div class="for-women">
+                <a class="content-menu-links" href="#">
+                    <div class="women-container">
+                        <div class="offer">
+                            30% OFFER
+                        </div>
+                        <div class="women">
+                            WOMEN
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="for-kids">
+                <a class="content-menu-links" href="#">
+                    <div class="kids-container">
+                        <div class="new-arrivals">
+                            NEW ARRIAVALS
+                        </div>
+                        <div class="kids">
+                            FOR KIDS
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
     </div>
     <figure class="fetured-it">
         <div class="fetured-items">
@@ -161,40 +308,40 @@
         <div class="products-up">
             <div class="products-up1">
                 <div class="prod-1">
-                        <a href=""><img class="product-1" src="img/products/product_1.jpg" alt=""></a>
-                        <a href="">
-                            <div class="buy-now">
-                                <img class="add_basket" src="img/add_basket.png" alt="Добавить в корзину">
-                                <p class="buy-now-text">Add to Cart</p>
-                            </div>
-                        </a>
+                    <a href=""><img class="product-1" src="img/products/product_1.jpg" alt=""></a>
+                    <a href="">
+                        <div class="buy-now">
+                            <img class="add_basket" src="img/add_basket.png" alt="Добавить в корзину">
+                            <p class="buy-now-text">Add to Cart</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="prod-2">
-                        <a href=""><img class="product-2" src="img/products/product_2.jpg" alt=""></a>
-                        <a href="">
-                            <div class="buy-now-2">
-                                <img class="add_basket" src="img/add_basket.png" alt="Добавить в корзину">
-                                <p class="buy-now-text">Add to Cart</p>
-                            </div>
-                        </a>
+                    <a href=""><img class="product-2" src="img/products/product_2.jpg" alt=""></a>
+                    <a href="">
+                        <div class="buy-now-2">
+                            <img class="add_basket" src="img/add_basket.png" alt="Добавить в корзину">
+                            <p class="buy-now-text">Add to Cart</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="prod-3">
-                        <a href=""><img class="product-3" src="img/products/product_3.jpg" alt=""></a>
-                        <a href="">
-                            <div class="buy-now-3">
-                                <img class="add_basket" src="img/add_basket.png" alt="Добавить в корзину">
-                                <p class="buy-now-text">Add to Cart</p>
-                            </div>
-                        </a>
+                    <a href=""><img class="product-3" src="img/products/product_3.jpg" alt=""></a>
+                    <a href="">
+                        <div class="buy-now-3">
+                            <img class="add_basket" src="img/add_basket.png" alt="Добавить в корзину">
+                            <p class="buy-now-text">Add to Cart</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="prod-4">
-                        <a href="#"><img class="product-4" src="img/products/product_4.jpg" alt=""></a>
-                        <a href="#">
-                            <div class="buy-now-4">
-                                <img class="add_basket" src="img/add_basket.png" alt="Добавить в корзину">
-                                <p class="buy-now-text">Add to Cart</p>
-                            </div>
-                        </a>
+                    <a href="#"><img class="product-4" src="img/products/product_4.jpg" alt=""></a>
+                    <a href="#">
+                        <div class="buy-now-4">
+                            <img class="add_basket" src="img/add_basket.png" alt="Добавить в корзину">
+                            <p class="buy-now-text">Add to Cart</p>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="products-up2">
@@ -213,40 +360,40 @@
         <div class="products-down">
             <div class="products-down1">
                 <div class="prod-5">
-                        <a href=""><img class="product-5" src="img/products/product_5.jpg" alt=""></a>
-                        <a href="">
-                            <div class="buy-now-5">
-                                <img class="add_basket" src="img/add_basket.png" alt="Добавить в корзину">
-                                <p class="buy-now-text">Add to Cart</p>
-                            </div>
-                        </a>
+                    <a href=""><img class="product-5" src="img/products/product_5.jpg" alt=""></a>
+                    <a href="">
+                        <div class="buy-now-5">
+                            <img class="add_basket" src="img/add_basket.png" alt="Добавить в корзину">
+                            <p class="buy-now-text">Add to Cart</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="prod-6">
-                        <a href=""><img class="product-6" src="img/products/product_6.jpg" alt=""></a>
-                        <a href="">
-                            <div class="buy-now-6">
-                                <img class="add_basket" src="img/add_basket.png" alt="Добавить в корзину">
-                                <p class="buy-now-text">Add to Cart</p>
-                            </div>
-                        </a>
+                    <a href=""><img class="product-6" src="img/products/product_6.jpg" alt=""></a>
+                    <a href="">
+                        <div class="buy-now-6">
+                            <img class="add_basket" src="img/add_basket.png" alt="Добавить в корзину">
+                            <p class="buy-now-text">Add to Cart</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="prod-7">
-                        <a href=""><img class="product-7" src="img/products/product_7.jpg" alt=""></a>
-                        <a href="">
-                            <div class="buy-now-7">
-                                <img class="add_basket" src="img/add_basket.png" alt="Добавить в корзину">
-                                <p class="buy-now-text">Add to Cart</p>
-                            </div>
-                        </a>
+                    <a href=""><img class="product-7" src="img/products/product_7.jpg" alt=""></a>
+                    <a href="">
+                        <div class="buy-now-7">
+                            <img class="add_basket" src="img/add_basket.png" alt="Добавить в корзину">
+                            <p class="buy-now-text">Add to Cart</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="prod-8">
-                        <a href="#"><img class="product-8" src="img/products/product_8.jpg" alt=""></a>
-                        <a href="#">
-                            <div class="buy-now-8">
-                                <img class="add_basket" src="img/add_basket.png" alt="Добавить в корзину">
-                                <p class="buy-now-text">Add to Cart</p>
-                            </div>
-                        </a>
+                    <a href="#"><img class="product-8" src="img/products/product_8.jpg" alt=""></a>
+                    <a href="#">
+                        <div class="buy-now-8">
+                            <img class="add_basket" src="img/add_basket.png" alt="Добавить в корзину">
+                            <p class="buy-now-text">Add to Cart</p>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="products-up2">
@@ -272,10 +419,12 @@
     </div>
     <div class="slider">
         <div class="slider-left">
-            <img class="img-slider" src="img/slider_left.jpg" alt="">
-            <div class="discount">30%</div>
-            <div class="slider-offer">OFFER</div>
-            <div class="slider-for-woman">FOR WOMEN</div>
+           <a href="">
+               <img class="img-slider" src="img/slider_left.jpg" alt="">
+                <div class="discount"><a class="discount-a" href="">30%</a></div>
+                <a href=""><div class="slider-offer">OFFER</div></a>
+                <a href=""><div class="slider-for-woman">FOR WOMEN</div></a>
+           </a>
         </div>
         <div class="slider-right">
             <article class="slider-right-1">
@@ -348,15 +497,19 @@
             </div>
         </article>
         <div class="reviews-right">
-           <div class="subscribe">
-               SUBSCRIBE
-           </div>
-           <div class="for-our">
-               FOR OUR NEWLETTER AND PROMOTION
-           </div>
-           <div class="reviews-search">
+            <div class="subscribe">
+                SUBSCRIBE
+            </div>
+            <div class="for-our">
+                FOR OUR NEWLETTER AND PROMOTION
+            </div>
+            <div class="reviews-search">
                 <input class="reviews-input_fields_contacts" name="email" type="email" placeholder="Enter Your Email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required type>
-                <button class="reviews-search-subscribe" name="sabmit" value="submit" type="submit"><p class="reviews-input_submit">Subscribe</p></button>
+                <a href="">
+                    <button class="reviews-search-subscribe" name="sabmit" value="submit" type="submit">
+                        <a class="reviews-input_submit-a" href=""><p class="reviews-input_submit">Subscribe</p></a>
+                    </button>
+                </a>
             </div>
         </div>
     </div>
@@ -364,12 +517,12 @@
         <div class="footer-1">
             <div class="footer-logo-name">
                 <div class="footer-logo-img">
-                       <a href="index.html"><img src="img/logo.jpg" alt="logo"></a>
+                    <a href="index.html"><img src="img/logo.jpg" alt="logo"></a>
                 </div>
                 <a class="footer-logo-link" href="index.html">
-                       <div class="footer-logo">
-                           <div class="footer-brand">DNARB</div>
-                       </div>
+                    <div class="footer-logo">
+                        <div class="footer-brand">DNARB</div>
+                    </div>
                 </a>
             </div>
             <div class="footer-1-p1">
@@ -447,4 +600,5 @@
         </div>
     </footer>
 </body>
+
 </html>
