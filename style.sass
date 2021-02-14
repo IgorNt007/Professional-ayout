@@ -1,0 +1,3857 @@
+$var1: #ececec
+$var2: #222222
+$var3: #f16d7f
+$var4: #e6e6e6
+$var5: #ffffff
+$var6: #cdcdcc
+$var7: #e8e8e8
+$var8: #9f9f9f
+$var9: #222224
+$var10: #fbfbfb
+$var11: #d6d6d6
+$var12: #e1e1e1
+$var13: #898989
+$var14: #7a7a7a
+$var15: #FFB300
+$var16: #c0c0c0
+$var17: #4a4a4a
+$var18: #eaeaea
+$var19: #232323
+$var20: #4e4e4e
+$var21: #646464
+$var22: #f8f3f4
+$var23: #636363
+$var24: #f7f7f7
+$var25: #ef5b70
+$var26: #4d4d4d
+$var27: #5e5e5e
+$var28: #b9b9b9
+$var29: #2f2f2f
+$var30: #bcbcbc
+$var31: #575757
+$var32: #6f6e6e
+$var33: #656565
+$var34: #f5f3f3
+$var35: #b1b1b1
+$var36: #bdbdbd
+$var37: #000000
+$var38: #e2e2e2
+$var39: #b3b2b2
+$var40: #555555
+$var41: #ff0d0d
+$var42: #ebebeb
+$var43: #dfdfdf
+$var44: #f0f0f0
+$var45: #f3f3f3
+$var46: #c4c4c4
+$var47: #aaaaaa
+
+.cont-header 
+	width: 100%
+	border: 1px solid $var1
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.17)
+
+.header 
+	width: 1600px
+	height: 100px
+	background-color: white
+	display: flex
+	margin: 0 auto
+	&-left 
+		width: 800px
+		height: 100px
+		display: flex
+	
+	&-right 
+		width: 800px
+		height: 100px
+		display: flex
+	
+
+.logo-img 
+	padding-left: 225px
+	padding-top: 25px
+
+.logo-link 
+	text-decoration: none
+
+.logo 
+	padding-left: 12px
+	padding-top: 38px
+	height: 50px
+	width: 93px
+	&-text 
+		font-family: Lato, sans-serif
+		font-size: 27px
+		line-height: 32px
+		font-weight: 300
+		text-transform: uppercase
+		letter-spacing: 0.025em
+		color: $var2
+		text-decoration: none
+		unicode-bidi: bidi-override
+		direction: rtl
+		&:first-letter 
+			font-family: Lato, sans-serif
+			font-size: 27px
+			line-height: 32px
+			font-weight: 000
+			text-transform: uppercase
+			letter-spacing: 0.025em
+			color: $var3
+			text-decoration: none
+		
+	
+
+.search 
+	width: 404px
+	height: 38px
+	border: 1px solid $var4
+	border-radius: 3px 3px 3px 3px
+	float: left
+	display: flex
+	margin-top: 26px
+	margin-right: 98px
+	background-color: $var5
+	margin-left: 37px
+	margin-top: 32px
+
+.browse-div 
+	width: 87px
+	height: 36px
+	background-color: $var6
+	background-color: $var6
+	background-image: linear-gradient(180.0deg, #f9f9f9 0%, #f5f5f5 100%)
+	border: 1px solid $var4
+	border-radius: 3px 0px 0px 3px
+	position: relative
+	&-link 
+		position: absolute
+		width: 87px
+		height: 36px
+	
+
+.browse-menu 
+	text-decoration: none
+	list-style-type: none
+	display: flex
+	margin-top: 3px
+	margin-left: -30px
+	&:hover .browse-drop-down 
+		display: block
+	
+	> li 
+		position: relative
+		list-style-type: none
+	
+
+.browse-drop-down:before 
+	content: ""
+	display: block
+	width: 12px
+	height: 12px
+	position: absolute
+	transform: rotate(45deg)
+	background-color: WHITE
+	border-top: 1px solid $var7
+	border-left: 1px solid $var7
+	margin-top: -7px
+	margin-left: 64px
+
+.browse 
+	text-decoration: none
+	font-family: Lato, sans-serif
+	font-size: 15px
+	line-height: 32px
+	font-weight: 400
+	letter-spacing: 0.025em
+	color: $var2
+	margin-top: -10px
+	&-all-product 
+		margin: 0 auto
+		height: 240px
+		width: 1600px
+		display: flex
+		position: relative
+		margin-top: -50px
+		&-link 
+			position: absolute
+			height: 240px
+			width: 1600px
+		
+	
+	&-all-link 
+		position: absolute
+		width: 212px
+		height: 48px
+	
+	&-all-button 
+		background-color: $var3
+		display: flex
+		margin-top: 79px
+		margin-left: 649px
+		width: 212px
+		height: 48px
+		position: relative
+		&-1 
+		
+		&:hover 
+			background-color: $var5
+			border: 1px solid $var3
+			.browse-all-text 
+				background-color: $var5
+				color: $var3
+			
+		
+	
+	&-all-text 
+		font-family: Lato
+		font-size: 16px
+		line-height: 54px
+		font-weight: 700
+		letter-spacing: 0.025em
+		color: $var5
+		margin-left: 24px
+		margin-top: 0px
+		text-decoration: none
+	
+	&-drop-down 
+		width: 262px
+		height: 530px
+		background-color: black
+		border-radius: 5px
+		margin-left: -10px
+		margin-top: 3px
+		display: none
+		&-woman 
+			height: 320px
+			background-color: $var5
+			border-radius: 5px 5px 0px 0px
+			&-p 
+				margin-top: 0px
+				padding-top: 19px
+				margin-left: 16px
+				font-family: Lato
+				font-size: 14px
+				line-height: 32px
+				font-weight: 400
+				text-transform: uppercase
+				letter-spacing: 0.025em
+				color: $var19
+				border-bottom: 1px solid $var7
+				width: 236px
+			
+		
+		&-men 
+			height: 210px
+			background-color: $var5
+			border-radius: 0px 0px 5px 5px
+			&-p 
+				margin-top: 0px
+				margin-left: 16px
+				font-family: Lato
+				font-size: 14px
+				line-height: 32px
+				font-weight: 400
+				text-transform: uppercase
+				letter-spacing: 0.025em
+				color: $var19
+				border-bottom: 1px solid $var7
+				width: 236px
+			
+			&-li 
+				font-family: Lato
+				font-size: 14px
+				line-height: 28px
+				font-weight: 400
+				letter-spacing: 0.025em
+				color: $var20
+				list-style-type: none
+				text-decoration: none
+				&:hover 
+					color: $var3
+				
+			
+			&-ul 
+				margin-top: -10px
+				margin-left: -20px
+			
+		
+	
+	&-i 
+		margin-top: 7px
+		margin-left: 5px
+	
+	&-all-product 
+		margin-left: -75px
+	
+	&-all-product 
+		margin-left: -145px
+	
+	&-all-product 
+		margin-left: -225px
+	
+
+.fa 
+	font-family: "FontAwesome"
+	color: inherit
+	&-star-o 
+		font-size: 12px
+		margin-top: 51px
+	
+	&-times-circle 
+		font-size: 16px
+		line-height: 1.2
+		font-weight: 400
+		text-transform: uppercase
+		color: $var16
+		position: absolute
+	
+	&-angle-left 
+		font-size: 24px
+		line-height: 24px
+		font-weight: 400
+		color: $var5
+		text-align: center
+		margin-top: 10px
+	
+	&-angle-right 
+		font-size: 24px
+		line-height: 24px
+		font-weight: 400
+		color: $var5
+		text-align: center
+		margin-top: 10px
+	
+	&-angle-down 
+		font-size: 14px
+		line-height: 23px
+		font-weight: 400
+		color: $var30
+		margin-top: 6px
+		margin-left: 67px
+	
+	&-caret-down-style 
+		font-size: 15px
+		line-height: 1.2
+		font-weight: 400
+		color: $var36
+		margin-left: -25px
+		margin-top: 35px
+	
+	&-angle-double-right 
+		margin-right: 4px
+	
+	&-caret-down 
+		font-size: 14px
+		line-height: 19px
+		font-weight: 400
+		text-transform: uppercase
+		color: $var32
+		margin-right: 5px
+		position: absolute
+		float: right
+	
+	&-caret-up 
+		font-size: 14px
+		line-height: 19px
+		font-weight: 400
+		text-transform: uppercase
+		color: $var25
+		float: right
+		position: absolute
+	
+
+.input_fields_contacts 
+	width: 280px
+	height: 36px
+	border-right: 1px solid $var4
+	border-left: 1px solid $var4
+	border-top: none
+	border-bottom: none
+	&:focus 
+		outline: none 
+	
+
+.input_submit 
+	width: 37px
+	height: 38px
+	border: none
+	background: url(img)
+	&:focus 
+		outline: none 
+	
+
+.basket 
+	margin-top: 38px
+	margin-left: 348px
+
+.my-acc-div 
+	width: 150px
+	height: 38px
+	margin-top: 31px
+	margin-left: 26px
+	background-color: $var3
+	position: relative
+	&-link 
+		position: absolute
+		float: left
+		width: 150px
+		height: 38px
+	
+
+.my-acc-menu 
+	text-decoration: none
+	list-style-type: none
+	display: flex
+	margin-top: 3px
+	margin-left: -10px
+	&:hover .my-acc-drop-down 
+		text-decoration: none
+		list-style-type: none
+		display: block
+	
+	> li 
+		position: relative
+		list-style-type: none
+	
+
+.my-acc 
+	text-decoration: none
+	font-family: Lato, sans-serif
+	font-size: 15px
+	line-height: 32px
+	font-weight: 400
+	letter-spacing: 0.025em
+	color: $var5
+	margin-top: -10px
+	&-drop-down 
+		text-decoration: none
+		list-style-type: none
+		width: 262px
+		height: 440px
+		background-color: $var5
+		border-radius: 5px
+		display: none
+		margin-top: 16px
+		margin-left: -90px
+		&:hover 
+		
+		&-up 
+			height: 122px
+			width: auto
+			background-color: $var5
+			border-radius: 5px 5px 0px 0px
+			&-content 
+				position: relative
+			
+			&-img 
+				margin-left: 17px
+				margin-top: 21px
+				float: left
+			
+		
+		&-sale 
+			font-family: Lato
+			font-size: 12px
+			line-height: 1.2
+			font-weight: 400
+			text-transform: uppercase
+			color: $var3
+			display: flex
+			padding-left: 15px
+			margin-top: 10px
+			&-x 
+				font-family: Lato
+				font-size: 10px
+				line-height: 1.2
+				font-weight: 400
+				text-transform: uppercase
+				color: $var3
+				margin-left: 3px
+				margin-top: 1px
+				margin-right: 3px
+			
+		
+		&-down-total 
+			font-family: Lato
+			font-size: 16px
+			line-height: 1.2
+			font-weight: 700
+			text-transform: uppercase
+			color: $var2
+			float: left
+			margin-left: 18px
+			margin-top: 19px
+		
+		&-down-sale 
+			font-family: Lato
+			font-size: 16px
+			line-height: 1.2
+			font-weight: 700
+			text-transform: uppercase
+			color: $var2
+			margin-left: 186px
+			margin-top: -36px
+			float: left
+		
+		&-down 
+		
+	
+	&-i 
+		margin-left: 10px
+		margin-top: 7px
+		font-size: 14px
+		font-weight: 400
+		letter-spacing: 0.025em
+		color: $var5
+	
+	&-drop-down 
+		margin-left: -140px
+	
+	&-div 
+		margin-top: 100px
+	
+	&-drop-down 
+		margin-top: 16px
+		margin-left: -90px
+	
+
+.fa 
+	font-family: "FontAwesome"
+	color: inherit
+
+.menu 
+	margin: 0 auto
+	width: 1600px
+	&-ul 
+		display: grid
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+		list-style-type: none
+		margin-left: 420px
+		width: 650px
+	
+	&_list:hover .mega-box 
+		display: flex
+	
+	&-list-last:hover .mega-box 
+		right: 10px
+		left: auto
+		top: 32px
+	
+	&-ul 
+		display: block
+		margin-left: 0px
+	
+
+.links-menu 
+	font-family: Lato, sans-serif
+	font-size: 14px
+	line-height: 26px
+	font-weight: 700
+	text-transform: uppercase
+	color: $var2
+	text-decoration: none
+	&:hover 
+		color: $var3
+		border-bottom: 3px solid $var3
+		padding-bottom: 14.5px
+	
+
+.man, .kids-menu, .accoseriese, .featured, .hot-deals 
+	padding-left: 40px
+
+.man 
+	width: 75px
+	&:hover .mega-box 
+		display: flex
+	
+	&:hover .mega-box 
+		display: block
+	
+
+.woman 
+	width: 60px
+
+.kids-menu 
+	width: 33px
+
+.accoseriese 
+	width: 91px
+
+.featured 
+	width: 71px
+
+.hot-deals 
+	width: 77px
+
+.brand 
+	margin: 0 auto
+	height: 665px
+	width: 1600px
+	background-image: url(img)
+	&-container 
+		padding-top: 224px
+		padding-left: 230px
+		float: left
+	
+
+.cont-brand 
+	width: 100%
+	background-color: $var7
+
+.rectangle 
+	width: 12px
+	height: 92px
+	background-color: $var3
+	margin-top: 15px
+	float: left
+	&-p 
+		margin-top: 5px
+		text-align: center
+	
+
+.the-brand 
+	font-family: Lato, sans-serif
+	font-size: 60px
+	line-height: 1.2
+	font-weight: 900
+	letter-spacing: 0.025em
+	color: $var2
+	margin-left: 25px
+
+.of-luxerious 
+	font-size: 40px
+	line-height: 1.2
+	font-weight: 900
+	letter-spacing: 0.025em
+	font-family: Lato, sans-serif
+	color: $var2
+	display: flex
+	margin-top: -5px
+	margin-left: 25px
+
+.fashion 
+	font-size: 40px
+	line-height: 1.2
+	font-weight: 900
+	letter-spacing: 0.025em
+	font-family: Lato, sans-serif
+	color: $var3
+	padding-left: 10px
+
+.content-menu 
+	margin: 0 auto
+	height: 921px
+	display: flex
+	justify-content: center
+	text-decoration: none
+	&-links 
+		text-decoration: none
+	
+	&-left 
+		width: 800px
+		float: left
+		text-decoration: none
+	
+	&-right 
+		width: 800px
+		float: right
+	
+	&-left 
+		float: left
+	
+	&-right 
+		float: left
+		margin-left: 220px
+	
+	&-left 
+		float: left
+	
+	&-right 
+		float: left
+		margin-left: 220px
+	
+
+.for-men 
+	background-image: url(img)
+	height: 542px
+	width: 560px
+	margin-left: 230px
+	margin-top: 98px
+	display: flex
+
+.men-container 
+	width: 175px
+	height: 82px
+	background-color: $var5
+	margin-top: 26px
+
+.hot-deal 
+	font-family: Lato, sans-serif
+	font-size: 18px
+	line-height: 1.2
+	font-weight: 900
+	text-transform: uppercase
+	letter-spacing: 0.025em
+	color: $var2
+	margin-left: 19px
+	padding-top: 16px
+
+.men 
+	font-family: Lato, sans-serif
+	line-height: 1.2
+	font-weight: 900
+	text-transform: uppercase
+	letter-spacing: 0.025em
+	font-size: 30px
+	color: $var3
+	margin-left: 18px
+
+.accesories 
+	background-image: url(img)
+	height: 261px
+	width: 560px
+	margin-left: 230px
+	margin-top: 20px
+	display: flex
+	&-container 
+		width: 225px
+		height: 82px
+		background-color: $var5
+		margin-top: 25px
+	
+
+.luxirous-trendy 
+	font-family: Lato, sans-serif
+	font-size: 18px
+	line-height: 1.2
+	font-weight: 900
+	text-transform: uppercase
+	letter-spacing: 0.025em
+	color: $var2
+	margin-left: 19px
+	padding-top: 16px
+
+.acces 
+	font-family: Lato, sans-serif
+	line-height: 1.2
+	font-weight: 900
+	text-transform: uppercase
+	letter-spacing: 0.025em
+	font-size: 30px
+	color: $var3
+	margin-left: 18px
+
+.for-women 
+	background-image: url(img)
+	height: 261px
+	width: 560px
+	margin-left: 10px
+	margin-top: 98px
+	display: flex
+
+.women-container 
+	width: 162px
+	height: 82px
+	background-color: $var5
+	margin-top: 26px
+
+.offer 
+	font-family: Lato, sans-serif
+	font-size: 18px
+	line-height: 1.2
+	font-weight: 900
+	text-transform: uppercase
+	letter-spacing: 0.025em
+	color: $var2
+	margin-left: 18px
+	padding-top: 16px
+
+.women 
+	font-family: Lato, sans-serif
+	line-height: 1.2
+	font-weight: 900
+	text-transform: uppercase
+	letter-spacing: 0.025em
+	font-size: 30px
+	color: $var3
+	margin-left: 18px
+	&-collection 
+		font-family: Lato
+		font-size: 14px
+		line-height: 24px
+		font-weight: 700
+		color: $var3
+		justify-content: center
+		margin-top: 73px
+		margin-left: 498px
+		padding-bottom: 15px
+		border-bottom: 1px solid $var18
+		width: 150px
+		&-down-line 
+			width: 63px
+			height: 3px
+			background-color: $var25
+			margin-left: 540px
+			margin-top: -16px
+		
+		&-a 
+			text-decoration: none
+		
+	
+
+.for-kids 
+	background-image: url(img)
+	height: 542px
+	width: 560px
+	margin-left: 10px
+	margin-top: 20px
+	display: flex
+
+.kids-container 
+	width: 180px
+	height: 82px
+	background-color: $var5
+	margin-top: 27px
+
+.new-arrivals 
+	font-family: Lato, sans-serif
+	font-size: 18px
+	line-height: 1.2
+	font-weight: 900
+	text-transform: uppercase
+	letter-spacing: 0.025em
+	color: $var2
+	margin-left: 18px
+	padding-top: 16px
+
+.kids 
+	font-family: Lato, sans-serif
+	font-size: 25px
+	line-height: 1.2
+	font-weight: 900
+	text-transform: uppercase
+	letter-spacing: 0.025em
+	color: $var3
+	margin-left: 18px
+
+.fetured-it 
+	width: 1600px
+	background-color: white
+	margin: 0 auto
+	margin-top: 100px
+	margin-bottom: 60px
+
+.fetured-items 
+	font-family: Lato, sans-serif
+	font-size: 30px
+	line-height: 54px
+	font-weight: 700
+	letter-spacing: 0.025em
+	color: $var2
+	text-align: center
+
+.shop-f-item 
+	font-family: Lato, sans-serif
+	font-size: 14px
+	line-height: 54px
+	font-weight: 400
+	letter-spacing: 0.025em
+	color: $var8
+	text-align: center
+	margin-top: -20px
+
+.products 
+	width: 1140px
+	margin: 0 auto
+	height: auto
+	&-up 
+		display: grid
+		width: 1140px
+		&1 
+			display: grid
+			list-style-type: none
+			grid-template-columns: 1fr 1fr 1fr 1fr
+		
+		&2 
+			display: flex
+			list-style-type: none
+			text-decoration: none
+		
+		&3 
+			display: flex
+			list-style-type: none
+		
+	
+	&-down 
+		height: 390px
+		margin-top: 50px
+		&1 
+			list-style-type: none
+			display: flex
+		
+	
+	&-single-page 
+		width: 1600px
+		margin: 0 auto
+		margin-top: 72px
+	
+	&-html 
+		margin: 0 auto
+		width: 1600px
+		display: flex
+		&-left 
+			width: 522px
+		
+		&-right 
+			&-up 
+				display: flex
+				margin-top: 55px
+			
+			&-down 
+				display: flex
+			
+			&-down 
+				display: block
+			
+		
+		&-right 
+			margin-left: -100px
+		
+		&-right 
+			margin-left: -170px
+		
+	
+	&-all 
+		margin-top: 43px
+		display: grid
+		grid-template-columns: 1fr 1fr 1fr
+		&-index-1 
+			width: 1600px
+			margin: 0 auto
+		
+		&-index 
+			width: 1140px
+			display: grid
+			grid-template-columns: 1fr 1fr 1fr 1fr
+			margin-left: 232px
+		
+		&-index 
+			display: grid
+			grid-template-columns: 1fr 1fr
+			margin-left: 270px
+		
+		&-index 
+			display: grid
+			grid-template-columns: 1fr 1fr
+			margin-left: 200px
+		
+		&-index 
+			display: grid
+			grid-template-columns: 1fr
+			margin-left: 400px
+		
+	
+	&-1 
+		margin-top: 48px
+		&-div:hover .pructs-buy-now 
+			display: block
+		
+		&-div 
+			margin-right: 30px
+			margin-bottom: 38px
+			&:first-of-type 
+				margin-left: 0px
+			
+		
+	
+	&-3 
+		display: flex
+		margin-top: 43px
+	
+	&-2 
+		display: flex
+		margin-top: 43px
+	
+
+.prod-1 
+	margin-bottom: 38px
+	position: relative
+	&:hover div.buy-now 
+		display: block
+		&-1 
+			display: block
+		
+	
+
+.product-1:hover 
+	filter: brightness(50%)
+
+.product-1 
+	margin-left: 232px
+	&-1 
+		&:hover 
+			filter: brightness(50%)
+			pructs-buy-now 
+				display: block
+			
+		
+	
+
+.buy-now 
+	position: absolute
+	width: 123px
+	height: 39px
+	border: 1px solid black
+	margin-left: 100px
+	margin-top: -150px
+	display: none
+	&-text 
+		font-family: Lato
+		font-size: 13px
+		line-height: 1.2
+		font-weight: 700
+		color: $var5
+		margin-left: 8px
+	
+	&-2 
+		position: absolute
+		width: 123px
+		height: 39px
+		border: 1px solid black
+		margin-left: 100px
+		margin-top: -150px
+		display: none
+	
+	&-3 
+		position: absolute
+		width: 123px
+		height: 39px
+		border: 1px solid black
+		margin-left: 100px
+		margin-top: -150px
+		display: none
+	
+	&-4 
+		position: absolute
+		width: 123px
+		height: 39px
+		border: 1px solid black
+		margin-left: 100px
+		margin-top: -150px
+		display: none
+	
+	&-5 
+		position: absolute
+		width: 123px
+		height: 39px
+		border: 1px solid black
+		margin-left: 300px
+		margin-top: -150px
+		display: none
+	
+	&-6 
+		position: absolute
+		width: 123px
+		height: 39px
+		border: 1px solid black
+		margin-left: 100px
+		margin-top: -150px
+		display: none
+	
+	&-7 
+		position: absolute
+		width: 123px
+		height: 39px
+		border: 1px solid black
+		margin-left: 100px
+		margin-top: -150px
+		display: none
+	
+	&-8 
+		position: absolute
+		width: 123px
+		height: 39px
+		border: 1px solid black
+		margin-left: 100px
+		margin-top: -150px
+		display: none
+	
+	&-1 
+		position: absolute
+		width: 123px
+		height: 39px
+		border: 1px solid black
+		margin-left: 290px
+		margin-top: -150px
+		display: none
+	
+
+.add_basket 
+	float: left
+	margin-left: 12px
+	margin-top: 10px
+
+.product-2 
+	margin-left: 32px
+	&:hover 
+		filter: brightness(50%)
+	
+
+.prod-2 
+	position: relative
+	padding-bottom: 30px
+	&:hover div.buy-now-2 
+		display: block
+	
+
+.product-3 
+	margin-left: 32px
+	&:hover 
+		filter: brightness(50%)
+	
+
+.prod-3 
+	position: relative
+	&:hover div.buy-now-3 
+		display: block
+	
+
+.product-4 
+	margin-left: 32px
+	&:hover 
+		filter: brightness(50%)
+	
+
+.prod-4 
+	position: relative
+	&:hover div.buy-now-4 
+		display: block
+	
+
+.mango-people-1 
+	font-family: Lato
+	font-size: 13px
+	line-height: 1.2
+	font-weight: 400
+	text-transform: uppercase
+	color: $var2
+	height: 47.5px
+	width: 261px
+	margin-left: 25px
+	margin-top: 38px
+	padding-left: 10px
+	text-decoration: none
+
+.mango-people-2 
+	font-family: Lato
+	font-size: 13px
+	line-height: 1.2
+	font-weight: 400
+	text-transform: uppercase
+	color: $var2
+	height: 47.5px
+	width: 261px
+	margin-left: 32px
+	margin-top: 18px
+	text-decoration: none
+
+.mango-people-3 
+	font-family: Lato
+	font-size: 13px
+	line-height: 1.2
+	font-weight: 400
+	text-transform: uppercase
+	color: $var2
+	height: 47.5px
+	width: 261px
+	margin-left: 32px
+	margin-top: 18px
+	text-decoration: none
+
+.mango-people-4 
+	font-family: Lato
+	font-size: 13px
+	line-height: 1.2
+	font-weight: 400
+	text-transform: uppercase
+	color: $var2
+	height: 47.5px
+	width: 261px
+	margin-left: 32px
+	margin-top: 18px
+	text-decoration: none
+
+.sell-1 
+	font-family: Lato
+	font-size: 16px
+	line-height: 1.2
+	font-weight: 700
+	text-transform: uppercase
+	color: $var3
+	height: 18px
+	width: 261px
+	text-decoration: none
+
+.sell-2 
+	font-family: Lato
+	font-size: 16px
+	line-height: 1.2
+	font-weight: 700
+	text-transform: uppercase
+	color: $var3
+	height: 18px
+	width: 261px
+	margin-left: 32px
+	margin-top: -20px
+	text-decoration: none
+
+.sell-3 
+	font-family: Lato
+	font-size: 16px
+	line-height: 1.2
+	font-weight: 700
+	text-transform: uppercase
+	color: $var3
+	height: 18px
+	width: 261px
+	margin-left: 32px
+	margin-top: -20px
+	text-decoration: none
+
+.sell-4 
+	font-family: Lato
+	font-size: 16px
+	line-height: 1.2
+	font-weight: 700
+	text-transform: uppercase
+	color: $var3
+	height: 18px
+	width: 261px
+	margin-left: 32px
+	margin-top: -20px
+	text-decoration: none
+
+.product-5 
+	background-image: url(img)
+	height: 280px
+	width: 261px
+	margin-left: 232px
+	&:hover 
+		filter: brightness(50%)
+	
+
+.prod-5 
+	position: relative
+	&:hover div.buy-now-5 
+		display: block
+	
+
+.product-6 
+	background-image: url(img)
+	height: 280px
+	width: 261px
+	margin-left: 32px
+	&:hover 
+		filter: brightness(50%)
+	
+
+.prod-6 
+	position: relative
+	&:hover div.buy-now-6 
+		display: block
+	
+
+.product-7 
+	background-image: url(img)
+	height: 280px
+	width: 261px
+	margin-left: 32px
+	&:hover 
+		filter: brightness(50%)
+	
+
+.prod-7 
+	position: relative
+	&:hover div.buy-now-7 
+		display: block
+	
+
+.product-8 
+	background-image: url(img)
+	height: 280px
+	width: 261px
+	margin-left: 32px
+	&:hover 
+		filter: brightness(50%)
+	
+
+.prod-8 
+	position: relative
+	&:hover div.buy-now-8 
+		display: block
+	
+
+.slider 
+	margin: 0 auto
+	display: flex
+	width: 1600px
+	&-left 
+		width: 767px
+		height: 529px
+		padding-left: 229px
+		position: relative
+	
+	&-offer 
+		position: absolute
+		font-family: Lato
+		font-size: 53.7px
+		line-height: 1.2
+		font-weight: 700
+		letter-spacing: 0.025em
+		color: $var3
+		padding-left: 159px
+		padding-top: 146px
+	
+	&-for-woman 
+		position: absolute
+		font-family: Lato
+		font-size: 32.2px
+		line-height: 1.2
+		font-weight: 700
+		letter-spacing: 0.025em
+		color: $var5
+		padding-left: 39px
+		padding-top: 206px
+	
+	&-right 
+		width: 373px
+		height: 529px
+		background-color: $var9
+		&-1 
+			height: 176px
+			display: flex
+			&-left 
+				width: 110px
+				height: 176px
+			
+			&-right 
+				width: 263px
+				height: 176px
+			
+		
+		&-2 
+			height: 176px
+			display: flex
+			&-left 
+				width: 110px
+				height: 176px
+			
+			&-right 
+				width: 263px
+				height: 176px
+			
+		
+		&-3 
+			height: 176px
+			display: flex
+			&-left 
+				width: 110px
+				height: 176px
+			
+			&-right 
+				width: 263px
+				height: 176px
+			
+		
+	
+	&-p-up 
+		font-family: Lato
+		font-size: 20px
+		line-height: 1.2
+		font-weight: 700
+		letter-spacing: 0.025em
+		color: $var10
+		margin-top: 55px
+	
+	&-p-down 
+		font-family: Lato
+		font-size: 14px
+		line-height: 24px
+		font-weight: 300
+		letter-spacing: 0.025em
+		color: $var10
+		margin-top: -15px
+	
+
+.img-slider 
+	position: absolute
+	&-right-left 
+		margin-left: 36px
+		margin-top: 48px
+	
+
+.discount 
+	position: absolute
+	font-family: Lato
+	font-size: 53.7px
+	line-height: 1.2
+	font-weight: 700
+	letter-spacing: 0.025em
+	color: $var5
+	padding-left: 39px
+	padding-top: 146px
+	&-a 
+		position: absolute
+		font-family: Lato
+		font-size: 53.7px
+		line-height: 1.2
+		font-weight: 700
+		letter-spacing: 0.025em
+		color: $var5
+		text-decoration: none
+	
+
+.reviews 
+	margin: 97px auto
+	width: 1600px
+	display: flex
+	background-image: url(img)
+	margin-top: 50px
+	&-1 
+		margin: 97px auto
+		width: 1600px
+		display: flex
+		background-image: url(img)
+		margin-top: 0px
+	
+	&-left 
+		width: 800px
+		display: flex
+		&-left 
+		
+		&-p 
+			font-family: Lato
+			font-size: 16px
+			line-height: 26px
+			font-weight: 400
+			font-style: italic
+			letter-spacing: 0.025em
+			color: $var9
+			margin-top: 123px
+			margin-left: 28px
+		
+	
+	&-img 
+		padding-left: 230px
+		padding-top: 111px
+	
+	&-slider-links 
+		display: flex
+		margin-top: 41px
+		margin-left: 28px
+	
+	&-slider-1-link 
+		width: 38px
+		height: 4px
+		display: block
+	
+	&-slider-1 
+		width: 38px
+		height: 4px
+		background-color: $var11
+		&:hover 
+			background-color: $var3
+		
+	
+	&-slider-2-link 
+		width: 38px
+		height: 4px
+		display: block
+	
+	&-slider-2 
+		width: 38px
+		height: 4px
+		background-color: $var11
+		margin-left: 13px
+		&-active 
+			width: 38px
+			height: 4px
+			background-color: $var3
+			margin-left: 13px
+		
+		&:hover 
+			background-color: $var3
+		
+	
+	&-slider-3-link 
+		width: 38px
+		height: 4px
+		display: block
+	
+	&-slider-3 
+		width: 38px
+		height: 4px
+		background-color: $var11
+		margin-left: 26px
+		&:hover 
+			background-color: $var3
+		
+	
+	&-right 
+		width: 800px
+		height: 430px
+	
+	&-search 
+		display: flex
+		width: 380px
+		height: 46px
+		background-color: $var12
+		border-radius: 23px
+		border: none
+		margin-left: 92px
+		margin-top: 35px
+		&-subscribe 
+			font-family: Lato
+			font-size: 14px
+			line-height: 54px
+			font-weight: 400
+			letter-spacing: 0.025em
+			color: $var5
+			border-radius: 0px 23px 23px 0px
+			width: 100px
+			height: 46px
+			border: none
+			background-color: $var3
+			margin-left: -0px
+			margin-top: -0px
+			&:hover 
+				color: $var3
+				border: 1px solid
+				border-color: $var3
+				background-color: $var5
+			
+			&:focus 
+				outline: none 
+			
+		
+	
+	&-input_fields_contacts 
+		width: 280px
+		height: 46px
+		background-color: $var12
+		border-radius: 23px 0px 0px 23px
+		border: none
+		float: left
+		padding: 0 28px
+		&:hover 
+			background-color: $var5
+			border: 1px solid $var12
+		
+		&:focus 
+			outline: none 
+		
+	
+	&-input_submit 
+		margin-top: -5px
+		margin-left: -5px
+		text-decoration: none
+		font-family: Lato
+		font-size: 14px
+		line-height: 54px
+		font-weight: 400
+		letter-spacing: 0.025em
+		color: $var5
+		&:hover 
+			color: $var3
+		
+		&-a 
+			text-decoration: none
+		
+	
+	&-1 
+		display: block
+	
+	&-left 
+		margin-left: 150px
+	
+	&-right 
+		padding-top: 130px
+		margin-left: 380px
+	
+	&-left 
+		margin-left: 50px
+	
+	&-right 
+		padding-top: 130px
+		margin-left: 280px
+	
+
+reviews-left-right 
+
+.bin-burhan 
+	font-family: Lato
+	font-size: 16px
+	line-height: 26px
+	font-weight: 700
+	letter-spacing: 0.025em
+	color: $var3
+	margin-left: 28px
+
+.dhaka-bd 
+	font-family: Lato
+	font-size: 12px
+	line-height: 14px
+	font-weight: 300
+	letter-spacing: 0.025em
+	color: $var9
+	margin-left: 28px
+
+.subscribe 
+	font-family: Lato
+	font-size: 24px
+	line-height: 54px
+	font-weight: 400
+	text-transform: uppercase
+	letter-spacing: 0.025em
+	color: $var9
+	margin-top: 125px
+	margin-left: 210px
+
+.for-our 
+	font-family: Lato
+	font-size: 14px
+	line-height: 24px
+	font-weight: 400
+	text-transform: none
+	letter-spacing: 0.025em
+	color: $var9
+	margin-top: -10px
+	margin-left: 140px
+
+.footer 
+	margin: 0 auto
+	margin-top: -100px
+	width: 1600px
+	display: flex
+	&-1 
+		width: 720px
+		height: 458px
+		&-p1 
+			font-family: Lato
+			font-size: 14px
+			line-height: 24px
+			font-weight: 300
+			letter-spacing: 0.025em
+			color: $var13
+			margin-top: 29px
+			margin-left: 229px
+		
+	
+	&-logo-name 
+		display: flex
+	
+	&-logo-img 
+		padding-left: 228px
+		padding-top: 109px
+	
+	&-logo-link 
+		text-decoration: none
+	
+	&-logo 
+		padding-left: 13px
+		padding-top: 120px
+		height: 50px
+		width: 93px
+	
+	&-brand 
+		font-family: Lato, sans-serif
+		font-size: 27px
+		line-height: 32px
+		font-weight: 300
+		text-transform: uppercase
+		letter-spacing: 0.025em
+		color: $var2
+		text-decoration: none
+		unicode-bidi: bidi-override
+		direction: rtl
+		&:first-letter 
+			font-family: Lato, sans-serif
+			font-size: 27px
+			line-height: 32px
+			font-weight: 000
+			text-transform: uppercase
+			letter-spacing: 0.025em
+			color: $var3
+			text-decoration: none
+		
+	
+	&-2-p2 
+		font-family: Lato
+		font-size: 14px
+		line-height: 24px
+		font-weight: 300
+		letter-spacing: 0.025em
+		color: $var13
+		margin-top: 35px
+		margin-left: 229px
+	
+	&-2 
+		width: 235px
+		height: 458px
+		&-p 
+			font-family: Lato
+			font-size: 18px
+			line-height: 26px
+			font-weight: 700
+			letter-spacing: 0.025em
+			color: $var3
+			margin-top: 123px
+		
+	
+	&-ul 
+		list-style-type: none
+		text-decoration: none
+		&-li 
+			margin-top: 30px
+			margin-left: -40px
+			&-1 
+				margin-top: -15px
+				margin-left: -40px
+			
+			&-links 
+				text-decoration: none
+				font-family: Lato
+				font-size: 16px
+				line-height: 59px
+				font-weight: 400
+				letter-spacing: 0.025em
+				color: $var13
+				&:hover 
+					color: $var3
+				
+			
+		
+	
+	&-3 
+		width: 225px
+		height: 458px
+	
+	&-down 
+		margin: 0 auto
+		width: 1600px
+		height: 79px
+		background-color: $var4
+		display: flex
+	
+	&-menu 
+		display: flex
+	
+	&-menu 
+		display: flex
+		margin-left: 240px
+		margin-top: -150px
+	
+	&-menu 
+		margin-left: 120px
+	
+	&-1 
+		margin-left: -50px
+	
+
+footer-2-p2 
+	font-family: Lato
+	font-size: 14px
+	line-height: 24px
+	font-weight: 300
+	letter-spacing: 0.025em
+	color: $var13
+
+.copirate 
+	font-family: Lato
+	font-size: 16px
+	line-height: 42px
+	font-weight: 400
+	letter-spacing: 0.025em
+	color: $var14
+	padding-left: 228px
+	padding-top: 17px
+
+.icons 
+	display: flex
+	&-ul 
+		list-style-type: none
+		display: flex
+		margin-left: 682px
+		margin-top: 24px
+	
+	&-li 
+		margin-left: 8px
+	
+	&-ul 
+		margin-left: 250px
+		margin-top: 24px
+	
+
+.size-icons 
+	font-size: 35px
+	color: $var5
+	&:hover 
+		color: $var3
+	
+
+.rebox-zane 
+	font-family: Lato
+	font-size: 12px
+	line-height: 1.2
+	font-weight: 700
+	text-transform: uppercase
+	color: $var2
+	text-decoration: none
+	padding-left: 14px
+	padding-top: 31px
+	float: left
+
+.star-rating 
+	font-size: 0
+	&__wrap 
+		display: inline-block
+		font-size: 1rem
+		margin-left: -73px
+		margin-top: 4px
+		&:after 
+			content: ""
+			display: table
+			clear: both
+		
+	
+	&__ico 
+		float: right
+		padding-left: 0px
+		cursor: pointer
+		color: $var15
+		&:last-child 
+			padding-left: 0
+		
+	
+	&__input 
+		display: none
+	
+	&__ico:hover:before, &__ico:hover ~ .star-rating__ico:before, &__input:checked ~ .star-rating__ico:before 
+		content: ""
+	
+
+.br 
+	width: 229px
+	height: 1px
+	background-color: rgba(237,237,237,0.74)
+	margin-top: 33px
+	margin-left: 17px
+
+.checkout 
+	font-family: Lato
+	font-size: 14px
+	line-height: 1.2
+	font-weight: 700
+	text-transform: uppercase
+	color: $var3
+	text-decoration: none
+	width: 225px
+	height: 50px
+	&-html 
+		margin: 0 auto
+		width: 1600px
+		&-ul 
+			list-style-type: none
+			&-li 
+				text-transform: uppercase
+				font-family: Lato
+				font-size: 16px
+				line-height: 72px
+				font-weight: 700
+				color: $var2
+				border-bottom: 1px solid $var7
+				width: 1140px
+				margin-left: 190px
+			
+		
+	
+	&-as-guest 
+		font-family: Lato
+		font-size: 12px
+		line-height: 1.2
+		font-weight: 700
+		text-transform: uppercase
+		color: $var2
+		margin-top: 3px
+		margin-left: 15px
+	
+	&-html 
+		margin-left: -100px
+	
+	&-html 
+		margin-left: -150px
+	
+	&-html 
+		margin-left: -170px
+	
+
+.button-checkout 
+	width: 225px
+	height: 50px
+	border: 1px solid $var3
+	margin-left: 19px
+	&:focus 
+		outline: none 
+	
+
+.go-to-cart 
+	font-family: Lato
+	font-size: 14px
+	line-height: 1.2
+	font-weight: 700
+	text-transform: uppercase
+	color: $var17
+	text-decoration: none
+	width: 225px
+	height: 50px
+	&:focus 
+		outline: none 
+	
+
+.button-go-to-cart 
+	width: 225px
+	height: 50px
+	background-color: $var5
+	border: 1px solid $var18
+	margin-left: 19px
+	margin-top: 11px
+	margin-bottom: 20px
+	&:focus 
+		outline: none 
+	
+
+.mega-box 
+	position: absolute
+	border-radius: 5px
+	background-color: $var5
+	padding: 20px
+	border: 1px solid $var7
+	display: none
+	top: 32px
+	margin-top: 120px
+	margin-left: -25px
+	&:before 
+		content: ""
+		display: block
+		width: 12px
+		height: 12px
+		position: absolute
+		top: -7px
+		transform: rotate(45deg)
+		background-color: WHITE
+		border-top: 1px solid $var7
+		border-left: 1px solid $var7
+		margin-left: 20px
+	
+	&:before 
+		margin-left: 290px
+	
+	&:before 
+		margin-left: 580px
+	
+	&:before 
+		margin-left: -10px
+	
+
+.mega-item-box 
+	margin-right: 45px
+	&:last-of-type 
+		margin-right: 0
+	
+
+.mega-hading 
+	color: $var19
+	font-family: Lato
+	font-size: 14px
+	font-weight: 400
+	width: 235px
+	padding: 8px
+	border-bottom: 1px solid $var7
+	text-transform: uppercase
+	margin-bottom: 16px
+
+.mega-menu-list 
+	list-style-type: none
+
+.mega-link 
+	text-decoration: none
+	display: block
+	width: 235px
+	color: $var21
+	font-family: Lato
+	font-size: 14px
+	font-weight: 400
+	line-height: 28px
+	margin-left: -40px
+	&:hover 
+		color: $var3
+	
+
+.mega-item-img 
+	margin-top: 20px
+
+.breadcrumb 
+	margin: 0 auto
+	width: 1600px
+	height: 148px
+	background-color: $var22
+	display: flex
+	&-left 
+		width: 800px
+		height: 148px
+	
+	&-right 
+		width: 800px
+		height: 148px
+		&-ul 
+			display: flex
+			list-style-type: none
+			margin-top: 59px
+			float: right
+			margin-right: 230px
+		
+		&-ul 
+			margin-right: 350px
+		
+		&-ul 
+			margin-right: 450px
+		
+		&-ul 
+			margin-right: 550px
+		
+		&-ul 
+			margin-right: 700px
+			white-space: pre
+		
+	
+	&-righ-li 
+		font-family: Lato
+		font-size: 14px
+		line-height: 20px
+		font-weight: 300
+		text-transform: uppercase
+		color: $var23
+		text-decoration: none
+		&:hover 
+			color: $var3
+		
+		&-1 
+			font-weight: 700
+			color: $var3
+			font-family: Lato
+			font-size: 14px
+			line-height: 20px
+			text-transform: uppercase
+			text-decoration: none
+			&:hover 
+				color: $var23
+			
+		
+	
+	&-all 
+		margin: 0 auto
+		height: 148px
+		background-color: $var22
+		display: flex
+		margin-top: -3px
+	
+	&-all 
+		margin-top: 15px
+	
+	&-all 
+		margin-top: 15px
+	
+	&-all 
+		margin-top: 15px
+	
+
+.new-arriwals 
+	margin-left: 228px
+	margin-top: 59px
+	&-a 
+		font-family: Lato
+		font-size: 24px
+		line-height: 20px
+		font-weight: 900
+		text-transform: uppercase
+		color: $var3
+		text-decoration: none
+		&:hover 
+			color: $var23
+		
+	
+
+.img-slide 
+	margin: 0 auto
+	height: 777px
+	background-color: $var24
+	border: 1px solid $var18
+	&-1 
+		margin: 0 auto
+		width: 1600px
+		height: 777px
+		background-color: $var24
+		&-a 
+			display: flex
+			justify-content: center
+		
+	
+	&-left 
+		display: block
+		float: left
+		width: 47px
+		height: 47px
+		background-color: rgba(42,42,42,0.14)
+		margin-top: 365px
+		text-align: center
+	
+	&-right 
+		display: block
+		float: right
+		width: 47px
+		height: 47px
+		background-color: rgba(42,42,42,0.14)
+		margin-top: -350px
+		text-align: center
+	
+
+.product-description-all 
+	height: 800px
+
+.product-description 
+	margin: 0 auto
+	width: 1141px
+	height: 730px
+	background-color: $var5
+	border: 1px solid $var18
+	justify-content: center
+	margin-top: -85px
+	&-up-text 
+		font-family: Lato
+		font-size: 14px
+		line-height: 24px
+		font-weight: 300
+		color: $var27
+		text-align: center
+	
+	&-up-sale 
+		font-family: Lato
+		font-size: 24px
+		line-height: 24px
+		font-weight: 700
+		color: $var25
+		text-align: center
+		border-bottom: 1px solid $var18
+		width: 642px
+		padding-bottom: 43px
+		margin-left: 250px
+	
+	&-bottuns-color 
+		width: 144px
+		height: 35px
+		background-color: $var5
+		border: 1px solid $var18
+		margin-left: 302px
+		margin-right: 53px
+		display: flex
+	
+	&-bottuns 
+		display: flex
+		&-size 
+			width: 144px
+			height: 35px
+			background-color: $var5
+			border: 1px solid $var18
+			margin-right: 53px
+			display: flex
+		
+		&-quantity 
+			width: 144px
+			height: 35px
+			background-color: $var5
+			border: 1px solid $var18
+			&-2 
+				font-family: Lato
+				font-size: 14px
+				line-height: 24px
+				font-weight: 400
+				color: $var30
+				margin-left: 17px
+				margin-top: 6px
+			
+		
+	
+	&-color 
+		width: 12px
+		height: 12px
+		background-color: $var25
+		margin-left: 14px
+		margin-top: 11px
+		&-red 
+			font-family: Lato
+			font-size: 13px
+			line-height: 24px
+			font-weight: 400
+			color: $var30
+			margin-left: 11px
+			margin-top: 6px
+		
+		&-xxl 
+			font-family: Lato
+			font-size: 13px
+			line-height: 24px
+			font-weight: 400
+			color: $var30
+			margin-left: 15px
+			margin-top: 6px
+		
+		&-fa 
+			margin-left: 87px
+		
+	
+
+.moschino-cheap-and-chic 
+	text-decoration: none
+	font-family: Lato
+	font-size: 18px
+	line-height: 24px
+	font-weight: 900
+	text-transform: uppercase
+	color: $var26
+	margin-left: 444px
+	&-a 
+		text-decoration: none
+	
+
+.material-designer 
+	display: flex
+	margin-left: 404px
+
+.material-p 
+	font-family: Lato
+	font-size: 14px
+	line-height: 24px
+	font-weight: 700
+	color: $var28
+
+.cotton 
+	font-family: Lato
+	font-size: 14px
+	line-height: 24px
+	font-weight: 700
+	color: $var29
+	margin-left: 5px
+
+.material 
+	display: flex
+
+.designer 
+	display: flex
+	&-p 
+		font-family: Lato
+		font-size: 14px
+		line-height: 24px
+		font-weight: 700
+		color: $var28
+		margin-left: 40px
+	
+
+.binburhan 
+	font-family: Lato
+	font-size: 14px
+	line-height: 24px
+	font-weight: 700
+	color: $var29
+	margin-left: 5px
+
+.choose-li 
+	font-family: Lato
+	font-size: 14px
+	line-height: 24px
+	font-weight: 700
+	color: $var29
+	padding-right: 90px
+
+.choose-ul 
+	list-style-type: none
+	display: flex
+	justify-content: center
+	margin-top: 63px
+	margin-left: -15px
+
+.choose-size-li 
+	font-family: Lato
+	font-size: 14px
+	line-height: 24px
+	font-weight: 700
+	color: $var29
+	padding-right: 107px
+
+.add-to-cart 
+	width: 537px
+	height: 55px
+	background-color: $var5
+	border: 1px solid $var25
+	margin-left: 303px
+	margin-top: 28px
+	display: flex
+	&-img 
+		margin-left: 207px
+		margin-top: 16px
+		width: 26px
+		height: 24px
+		&-a 
+			width: 26px
+			height: 24px
+		
+	
+	&-a 
+		display: block
+		text-decoration: none
+	
+	&-p 
+		font-family: Lato
+		font-size: 16px
+		line-height: 1.2
+		font-weight: 700
+		color: $var25
+		display: block
+		margin-left: 15px
+		margin-top: 20px
+	
+
+.you-may-like-also 
+	margin: 0 auto
+	height: 30px
+	width: 1600px
+	padding-bottom: 72px
+	&-p 
+		font-family: Lato
+		font-size: 24px
+		line-height: 20px
+		font-weight: 900
+		text-transform: uppercase
+		color: $var26
+		text-align: center
+		margin-top: 119px
+	
+
+.video 
+	width: 261px
+	height: 280px
+	margin-left: 231px
+
+.shopping-cart 
+	margin: 0 auto
+	width: 1600px
+	&-nav-ul 
+		display: flex
+		width: 1100px
+		margin-top: 90px
+		font-family: Lato
+		font-size: 13px
+		line-height: 20px
+		font-weight: 700
+		text-transform: uppercase
+		letter-spacing: -0.015em
+		color: $var2
+	
+	&-nav-li-1 
+		list-style-type: none
+		margin-left: -40px
+	
+	&-nav-li 
+		list-style-type: none
+		&-2 
+			list-style-type: none
+			margin-left: 398px
+		
+		&-3 
+			list-style-type: none
+			margin-left: 98px
+		
+		&-4 
+			list-style-type: none
+			margin-left: 80px
+		
+		&-5 
+			list-style-type: none
+			margin-left: 85px
+		
+		&-6 
+			list-style-type: none
+			margin-left: 54px
+		
+	
+	&-pos-img 
+		padding-top: 20px
+		transition: 1s
+		&:hover 
+			transform: scale(1.3)
+		
+		&-2 
+			padding-top: 20px
+			transition: 2s
+			&:hover 
+				transform: rotate(360deg)
+			
+		
+	
+	&-pos-1 
+		width: 1140px
+		height: 162px
+		margin-left: 228px
+		border-top: 1px solid $var18
+		margin-top: 20px
+		display: flex
+	
+	&-pos-2 
+		width: 1140px
+		height: 162px
+		border-top: 1px solid $var18
+		margin-left: 228px
+		display: flex
+	
+	&-pos-3 
+		width: 1140px
+		height: 162px
+		border-top: 1px solid $var18
+		border-bottom: 1px solid $var18
+		margin-left: 228px
+		display: flex
+	
+	&-nav 
+		margin: 0 auto
+		margin-left: 228px
+	
+	&-pos-parameters 
+		&-name-color-1 
+			font-family: Lato
+			font-size: 13px
+			font-weight: 400
+			color: $var31
+			margin-top: 25px
+			padding-right: 6px
+		
+		&-size-1 
+			font-family: Lato
+			font-size: 13px
+			line-height: 20px
+			font-weight: 400
+			color: $var31
+			padding-right: 6px
+		
+		&-size-2 
+			font-family: Lato
+			font-size: 13px
+			line-height: 20px
+			font-weight: 300
+			color: $var32
+		
+		&-name-color-2 
+			font-family: Lato
+			font-size: 13px
+			font-weight: 300
+			color: $var32
+			margin-top: 25px
+		
+		&-size 
+			display: flex
+			margin-left: 21px
+		
+		&-name 
+			font-family: Lato
+			font-size: 13px
+			line-height: 1.2
+			font-weight: 400
+			text-transform: uppercase
+			color: $var2
+			margin-top: 35px
+			margin-left: 21px
+			text-decoration: none
+			&-color 
+				display: flex
+				margin-left: 21px
+			
+			&-a 
+				font-family: Lato
+				font-size: 13px
+				line-height: 1.2
+				font-weight: 400
+				text-transform: uppercase
+				color: $var2
+				text-decoration: none
+			
+		
+		&-ul 
+			display: flex
+			list-style-type: none
+			margin-left: 225px
+			margin-top: 72px
+			font-family: Lato
+			font-size: 13px
+			line-height: 20px
+			font-weight: 400
+			color: $var33
+		
+		&-li-circle 
+			margin-top: 2px
+		
+		&-li-rectangle 
+			width: 49px
+			height: 30px
+			background-color: $var5
+			border: 1px solid $var18
+			margin-top: -5px
+			text-align: center
+			padding-left: 5px
+		
+		&-li 
+			&-2 
+				margin-left: 123px
+			
+			&-3 
+				margin-left: 98px
+			
+			&-4 
+				margin-left: 116px
+			
+			&-5 
+				margin-left: 86px
+			
+		
+	
+	&-buttons 
+		display: flex
+	
+	&-button-1 
+		width: 235px
+		height: 50px
+		background-color: $var5
+		border: 1px solid $var18
+		margin-left: 228px
+		margin-top: 44px
+		text-decoration: none
+		color: $var17
+		&:hover 
+			background-color: $var3
+			border: 1px solid $var3
+			color: $var5
+		
+	
+	&-button-2 
+		width: 225px
+		height: 50px
+		background-color: $var5
+		border: 1px solid $var18
+		margin-left: 682px
+		margin-top: 44px
+		color: $var17
+		&:hover 
+			background-color: $var3
+			border: 1px solid $var3
+			color: $var5
+		
+	
+	&-button-a 
+		text-decoration: none
+		text-align: center
+	
+	&-down 
+		display: flex
+		margin-top: 63px
+		&-left 
+			margin-left: 228px
+			width: 397px
+			&-p 
+				font-family: Lato
+				font-size: 16px
+				line-height: 1.2
+				font-weight: 700
+				text-transform: uppercase
+				color: $var2
+				text-transform: uppercase
+			
+			&-city 
+				font-family: Lato
+				font-size: 13px
+				line-height: 1.2
+				font-weight: 300
+				color: $var35
+				width: 323px
+				height: 45px
+				background-color: $var5
+				border: 1px solid $var18
+				margin-top: 20px
+				padding: 0 18px
+			
+			&-state 
+				font-family: Lato
+				font-size: 13px
+				line-height: 1.2
+				font-weight: 300
+				color: $var35
+				width: 323px
+				height: 45px
+				background-color: $var5
+				border: 1px solid $var18
+				margin-top: 20px
+				padding: 0 18px
+			
+			&-postcode 
+				font-family: Lato
+				font-size: 13px
+				line-height: 1.2
+				font-weight: 300
+				color: $var35
+				width: 323px
+				height: 45px
+				background-color: $var5
+				border: 1px solid $var18
+				margin-top: 20px
+				padding: 0 18px
+			
+		
+		&-center 
+			width: 390px
+			&-p 
+				text-transform: uppercase
+				font-family: Lato
+				font-size: 16px
+				line-height: 1.2
+				font-weight: 700
+				text-transform: uppercase
+				color: $var2
+			
+			&-state 
+				font-family: Lato
+				font-size: 13px
+				line-height: 1.2
+				font-weight: 300
+				color: $var35
+				width: 323px
+				height: 45px
+				background-color: $var5
+				border: 1px solid $var18
+				margin-top: 18px
+				padding: 0 18px
+			
+		
+		&-right 
+			width: 360px
+			background-color: $var34
+		
+	
+
+.times-circle 
+	margin-left: 143px
+	margin-top: -45px
+
+.clear-shopping-cart 
+	font-family: Lato
+	font-size: 14px
+	line-height: 1.2
+	font-weight: 700
+	text-transform: uppercase
+	text-decoration: none
+	list-style-type: none
+	padding-top: 3px
+
+.continue-shopping 
+	font-family: Lato
+	font-size: 14px
+	line-height: 1.2
+	font-weight: 700
+	text-transform: uppercase
+	text-decoration: none
+	padding-top: 3px
+
+.coupon 
+	font-family: Lato
+	font-size: 14px
+	line-height: 1.2
+	font-weight: 300
+	color: $var37
+	margin-top: 39px
+
+.apply-coupon 
+	font-family: Lato
+	font-size: 11px
+	line-height: 1.2
+	font-weight: 700
+	text-transform: uppercase
+	color: $var17
+	width: 118px
+	height: 23px
+	background-color: $var5
+	border: 1px solid $var18
+	margin-top: 15px
+	text-align: center
+	padding-top: 12px
+	&:hover 
+		color: $var5
+		background-color: $var3
+		border: 1px solid $var3
+	
+	&-a 
+		text-decoration: none
+	
+
+.sub-total 
+	display: flex
+	font-family: Lato
+	font-size: 11px
+	line-height: 1.2
+	font-weight: 400
+	text-transform: uppercase
+	color: $var17
+	margin-top: 40px
+	&-p 
+		margin-left: 217px
+	
+	&-price 
+		margin-left: 15px
+	
+
+.grand-total-price 
+	font-family: Lato
+	font-size: 16px
+	line-height: 1.2
+	font-weight: 700
+	text-transform: uppercase
+	color: $var3
+	margin-left: 20px
+
+.grand-total-p 
+	font-family: Lato
+	font-size: 16px
+	line-height: 1.2
+	font-weight: 700
+	text-transform: uppercase
+	color: $var2
+	margin-left: 106px
+
+.grand-total 
+	margin-left: 43px
+	display: flex
+	width: 275px
+	border-bottom: 1px solid $var38
+	padding-bottom: 30px
+	margin-top: -10px
+
+.proceed-to-checkout 
+	width: 273px
+	height: 50px
+	background-color: $var3
+	margin-left: 44px
+	margin-top: 17px
+	color: $var5
+	&:hover 
+		background-color: $var5
+		color: $var3
+	
+	&-a 
+		text-decoration: none
+	
+	&-p 
+		text-transform: uppercase
+		font-family: Lato
+		font-size: 16px
+		line-height: 1.2
+		font-weight: 700
+		text-align: center
+		padding-top: 15px
+		&:hover 
+			color: $var3
+		
+	
+
+.get-a-quote 
+	width: 100px
+	height: 35px
+	background-color: $var5
+	border: 1px solid $var18
+	margin-left: 228px
+	margin-top: 23px
+	color: $var17
+	&:hover 
+		background-color: $var3
+		border: 1px solid $var3
+		color: $var5
+	
+	&-p 
+		text-transform: uppercase
+		font-family: Lato
+		font-size: 11px
+		line-height: 1.2
+		font-weight: 700
+		text-align: center
+		padding-top: 0px
+	
+	&-a 
+		text-decoration: none
+	
+
+.check-as-a-guest-or-register 
+	font-family: Lato
+	font-size: 13px
+	line-height: 1.2
+	font-weight: 700
+	text-transform: uppercase
+	color: $var2
+
+.shipping-adress-left 
+	margin-left: 27px
+	margin-right: 293px
+
+.register-with-us-for-future-convenience 
+	font-family: Lato
+	font-size: 13px
+	line-height: 20px
+	font-weight: 400
+	color: $var39
+	text-transform: none
+	margin-bottom: 10px
+
+.radio-checkout-as-guest 
+	background-color: $var5
+	border: 2px solid $var40
+
+.register 
+	font-family: Lato
+	font-size: 12px
+	line-height: 1.2
+	font-weight: 700
+	text-transform: uppercase
+	color: $var2
+	margin-top: 3px
+	margin-left: 15px
+	&-and-save-time 
+		font-family: Lato
+		font-size: 13px
+		line-height: 1.2
+		font-weight: 700
+		text-transform: uppercase
+		color: $var2
+	
+
+.div-checkout-as-guest 
+	display: flex
+	margin-left: -3px
+	margin-top: 31px
+
+.div-register 
+	display: flex
+	margin-top: 6px
+	margin-left: -3px
+
+.fast-and-easy-checkout 
+	font-family: Lato
+	font-size: 13px
+	line-height: 20px
+	font-weight: 400
+	color: $var39
+	text-transform: none
+
+.continue-button 
+	font-family: Lato
+	font-size: 14px
+	line-height: 1.2
+	font-weight: 700
+	text-transform: uppercase
+	color: $var17
+	width: 180px
+	height: 35px
+	padding-top: 20px
+	background-color: $var5
+	border: 1px solid $var18
+	text-align: center
+	margin-top: 38px
+	margin-bottom: 79px
+	&-a 
+		text-decoration: none
+	
+
+.already-registed 
+	font-family: Lato
+	font-size: 13px
+	line-height: 1.2
+	font-weight: 700
+	text-transform: uppercase
+	color: $var2
+
+.shipping-adress 
+	display: flex
+
+.please-log-in-below 
+	font-family: Lato
+	font-size: 13px
+	line-height: 20px
+	font-weight: 400
+	color: $var39
+	text-transform: none
+
+.email-address 
+	font-family: Lato
+	font-size: 12px
+	line-height: 20px
+	font-weight: 700
+	color: $var2
+	margin-bottom: -5px
+	margin-top: -4px
+	&-star 
+		font-family: Lato
+		font-size: 17px
+		line-height: 20px
+		font-weight: 400
+		color: $var41
+	
+	&-button 
+		width: 390px
+		height: 45px
+		background-color: $var5
+		border: 1px solid $var18
+		margin-bottom: 5px
+	
+
+.password-address-button 
+	width: 390px
+	height: 45px
+	background-color: $var5
+	border: 1px solid $var18
+
+.required-fileds 
+	font-family: Lato
+	font-size: 13px
+	line-height: 20px
+	font-weight: 400
+	color: $var41
+	text-transform: none
+	margin-top: 22px
+
+.log-in 
+	margin-top: 35px
+	display: flex
+	&-button 
+		width: 180px
+		height: 35px
+		padding-top: 20px
+		background-color: $var5
+		border: 1px solid $var18
+		font-family: Lato
+		font-size: 14px
+		line-height: 1.2
+		font-weight: 700
+		text-transform: uppercase
+		color: $var17
+		text-align: center
+		&-a 
+			text-decoration: none
+		
+	
+
+.forgot-password-a 
+	text-decoration: none
+	margin-left: 32px
+
+.forgot-password 
+	font-family: Lato
+	font-size: 14px
+	line-height: 20px
+	font-weight: 700
+	color: $var2
+	text-transform: none
+
+.down-menu-products-ul 
+	font-family: Lato
+	font-size: 14px
+	line-height: 20px
+	font-weight: 700
+	text-transform: uppercase
+	color: $var25
+	list-style-type: none
+	margin-left: 190px
+	margin-top: 59px
+
+.down-menu-products-li 
+	width: 231px
+	height: 28px
+	border-bottom: 1px solid $var42
+	border-left: 5px solid $var25
+	margin-top: 18px
+	padding-left: 11px
+	padding-top: 9px
+	color: $var32
+	&-category:hover .down-menu-products-i-category-up 
+		display: block
+	
+	&-category:hover .down-menu-products-i-category 
+		display: none
+	
+	&-category:hover .down-menu-category-ul 
+		display: block
+	
+	&:hover 
+		color: $var25
+	
+	&:first-of-type 
+		margin-top: 0px
+	
+	&-category 
+		width: 231px
+		height: 28px
+		border-bottom: 1px solid $var42
+		border-left: 5px solid $var25
+		margin-top: 18px
+		padding-left: 11px
+		padding-top: 9px
+		color: $var32
+		position: relative
+		display: flex
+		&:hover 
+			color: $var25
+			margin-bottom: 460px
+		
+	
+	&-brand 
+		width: 231px
+		height: 28px
+		border-bottom: 1px solid $var42
+		border-left: 5px solid $var25
+		margin-top: 18px
+		padding-left: 11px
+		padding-top: 9px
+		color: $var32
+		display: flex
+		&:hover 
+			color: $var25
+			&-up 
+				display: block
+			
+			.down-menu-products-i-brand 
+				display: none
+			
+		
+	
+	&-designer 
+		width: 231px
+		height: 28px
+		border-bottom: 1px solid $var42
+		border-left: 5px solid $var25
+		margin-top: 18px
+		padding-left: 11px
+		padding-top: 9px
+		color: $var32
+		display: flex
+		&:hover 
+			color: $var25
+			&-up 
+				display: block
+			
+			.down-menu-products-i-designer 
+				display: none
+			
+		
+	
+
+.down-menu-category-ul 
+	list-style-type: none
+	font-family: Lato
+	font-size: 14px
+	line-height: 33px
+	font-weight: 400
+	color: $var32
+	text-transform: none
+	margin-left: -113px
+	padding-top: 42px
+	display: none
+	&:hover 
+		display: block
+	
+
+.down-menu-products-i-category 
+	margin-top: -12px
+	margin-left: 137px
+	&-up 
+		margin-top: -12px
+		margin-left: 137px
+		display: none
+	
+
+.down-menu-products-i-brand 
+	margin-left: 163px
+	margin-top: -12px
+	&-up 
+		margin-left: 163px
+		margin-top: -12px
+		display: none
+	
+	&-up 
+		display: block
+	
+
+.down-menu-products-i-designer 
+	margin-left: 145px
+	margin-top: -12px
+	&-up 
+		margin-left: 145px
+		margin-top: -12px
+		display: none
+	
+	&-up 
+		display: block
+	
+
+.down-menu-category-li 
+	text-decoration: none
+	font-family: Lato
+	font-size: 14px
+	line-height: 33px
+	font-weight: 400
+	color: $var32
+	&:hover 
+		color: $var25
+	
+
+.trending-now 
+	font-family: Lato
+	font-size: 14px
+	line-height: 20px
+	font-weight: 700
+	text-transform: uppercase
+	color: $var32
+
+.size 
+	font-family: Lato
+	font-size: 14px
+	line-height: 20px
+	font-weight: 700
+	text-transform: uppercase
+	color: $var32
+	margin-left: 0px
+	margin-top: -35px
+
+.price 
+	font-family: Lato
+	font-size: 14px
+	line-height: 20px
+	font-weight: 700
+	text-transform: uppercase
+	color: $var32
+	margin-left: 0px
+	margin-top: -35px
+
+.bohemian-up 
+	font-family: Lato
+	font-size: 14px
+	font-weight: 400
+	color: $var32
+	display: flex
+	margin-top: -15px
+
+.bohemian-down 
+	font-family: Lato
+	font-size: 14px
+	font-weight: 400
+	color: $var32
+	display: flex
+	margin-top: -15px
+
+.bohemian 
+	border-right: 1px solid $var43
+	padding-right: 13px
+	&-1 
+		padding-left: 13px
+	
+	&-a 
+		text-decoration: none
+		font-family: Lato
+		font-size: 14px
+		font-weight: 400
+		color: $var32
+	
+	&-all 
+	
+
+.floral 
+	border-right: 1px solid $var43
+	padding-right: 13px
+	padding-left: 13px
+	&-1 
+		border-right: 1px solid $var43
+		padding-right: 13px
+	
+
+.lace-1 
+	border-right: 1px solid $var43
+	padding-right: 13px
+	padding-left: 13px
+
+.lace 
+	padding-left: 13px
+
+.radio-label 
+	font-family: OpenSans
+	font-size: 14px
+	font-weight: 400
+	text-transform: uppercase
+	color: $var32
+	margin-top: 2px
+	margin-left: 4px
+
+.xxs 
+	display: flex
+
+.radio-up 
+	display: flex
+
+.xs 
+	display: flex
+	margin-left: 23px
+
+.s 
+	display: flex
+	margin-left: 31px
+
+.m 
+	display: flex
+	margin-left: 33px
+
+.checkbox-label-2 
+
+.radio-down 
+	display: flex
+
+.xl 
+	display: flex
+	margin-left: 43px
+
+.l 
+	display: flex
+
+.xxl 
+	display: flex
+	margin-left: 31px
+
+.range-all 
+	width: 262px
+	height: 6px
+	background-color: $var44
+	border-radius: 3px
+	margin-left: 50px
+	display: flex
+
+.range-1 
+	width: 262px
+	height: 6px
+	-appearance: none
+	background: -webkit -linear -gradient(top. $var3 70%)
+	&-points 
+		font-family: OpenSans
+		font-size: 14px
+		line-height: 26px
+		font-weight: 400
+		color: $var32
+	
+
+.range 
+	margin-top: -3px
+	margin-left: 47px
+	&-2-points 
+		font-family: OpenSans
+		font-size: 14px
+		line-height: 26px
+		font-weight: 400
+		color: $var32
+		margin-left: 207px
+	
+
+.points 
+	margin-top: 15px
+	display: flex
+
+.sort-by 
+	width: 846px
+	height: 50px
+	background-color: $var45
+	margin-top: 42px
+	display: flex
+	&-1 
+		width: 67px
+		height: 30px
+		background-color: $var5
+		border: 1px solid $var42
+		margin-left: 9px
+		margin-top: 10px
+	
+	&-p 
+		font-family: Lato
+		font-size: 14px
+		line-height: 26px
+		font-weight: 400
+		color: $var32
+		margin-left: 11px
+		margin-top: 3px
+	
+
+.name 
+	width: 86px
+	height: 30px
+	background-color: $var5
+	border: 1px solid $var42
+	margin-left: -2px
+	margin-top: 10px
+	&-i 
+		margin-left: 20px
+		margin-top: 3px
+	
+
+.show 
+	width: 55px
+	height: 30px
+	margin-left: 10px
+	margin-top: 10px
+	background-color: $var5
+	border: 1px solid $var42
+	&-p 
+		font-family: Lato
+		font-size: 14px
+		line-height: 26px
+		font-weight: 400
+		color: $var32
+		text-align: center
+		margin-top: 3px
+	
+	&-number 
+		width: 63px
+		height: 30px
+		margin-left: -2px
+		margin-top: 10px
+		background-color: $var5
+		border: 1px solid $var42
+	
+	&--number-p 
+		font-family: Lato
+		font-size: 14px
+		line-height: 26px
+		font-weight: 400
+		color: $var32
+		margin-left: 12px
+		margin-top: 3px
+	
+	&-i 
+		margin-left: 17px
+		margin-top: 3px
+	
+
+.pructs-buy-now 
+	position: absolute
+	width: 123px
+	height: 39px
+	border: 1px solid black
+	margin-left: 70px
+	margin-top: -150px
+	display: none
+	&:hover 
+		display: block
+	
+
+.product-name 
+	font-family: Lato
+	font-size: 13px
+	line-height: 1.2
+	font-weight: 400
+	text-transform: uppercase
+	color: $var32
+	margin-left: 15px
+	&-a 
+		text-decoration: none
+	
+	&-index 
+		margin-left: 0px
+	
+
+.product-sale 
+	font-family: Lato
+	font-size: 16px
+	line-height: 1.2
+	font-weight: 700
+	text-transform: uppercase
+	color: $var3
+	margin-left: 15px
+	&-a 
+		text-decoration: none
+	
+	&-index 
+		margin-left: 0px
+	
+
+.data-pagination 
+	font-size: 8pt
+	line-height: 1
+	font-weight: 400
+	-webkit-text-size-adjust: 100%
+	text-align: center
+	transition: font-size .2s ease-in-out
+	display: flex
+	width: 261px
+	height: 44px
+	background-color: $var5
+	border: 1px solid $var42
+	border-radius: 3px
+	margin-left: 0px
+	margin-top: 50px
+	&-ul 
+		list-style-type: none
+		display: flex
+		font-family: Lato
+		font-size: 16px
+		font-weight: 700
+		color: $var25
+		margin-top: 13px
+		margin-left: -15px
+		width: 183px
+	
+
+.data-pagination, .data-pagination *:before, .data-pagination *:after 
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+	text-rendering: optimizeLegibility
+	-webkit-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+	font-kerning: auto
+
+.pages-a 
+	text-decoration: none
+	margin-right: 18px
+	font-family: Lato
+	font-size: 16px
+	font-weight: 700
+	color: $var46
+	&:hover 
+		color: $var25
+	
+	&-1 
+		text-decoration: none
+		margin-left: -20px
+		font-family: Lato
+		font-size: 16px
+		font-weight: 700
+		color: $var46
+		&:hover 
+			color: $var25
+		
+	
+	&-last 
+		text-decoration: none
+		margin-left: -1px
+		font-family: Lato
+		font-size: 16px
+		font-weight: 700
+		color: $var46
+		&:hover 
+			color: $var25
+		
+	
+	&-first 
+		text-decoration: none
+		margin-right: 18px
+		font-family: Lato
+		font-size: 16px
+		font-weight: 700
+		color: $var46
+		margin-left: 0px
+		&:hover 
+			color: $var25
+		
+	
+
+.pagination-i-left 
+	font-size: 20.2px
+	line-height: 26px
+	font-weight: 700
+	color: $var47
+	margin-left: -3px
+	margin-top: -5px
+	margin-right: 10px
+	&:hover 
+		color: $var25
+	
+
+.pagination-i-right 
+	font-size: 20.2px
+	line-height: 26px
+	font-weight: 700
+	color: $var47
+	margin-left: 10px
+	margin-top: -5px
+	margin-right: 10px
+	&:hover 
+		color: $var25
+	
+
+.pages-active 
+	color: $var25
+
+.view-all 
+	width: 150px
+	height: 44px
+	background-color: $var5
+	border: 1px solid $var25
+	border-radius: 3px
+	&-p 
+		font-family: Lato
+		font-size: 16px
+		line-height: 26px
+		font-weight: 700
+		color: $var25
+		margin-top: 9px
+		text-align: center
+	
+	&-a 
+		text-decoration: none
+		float: right
+		margin-top: -46px
+	
+	&-a 
+		margin-right: 150px
+	
+	&-a 
+		margin-right: 170px
+	
+	&-a 
+		margin-right: 190px
+	
+	&-a 
+		margin-right: 220px
+	
+	&-a 
+		margin-right: 310px
+	
+	&-a 
+		margin-right: 420px
+	
+
+.feature-box 
+	width: 1600px
+	height: 341px
+	background-color: $var9
+	margin: 0 auto
+	margin-top: 110px
+	display: flex
+	&-left 
+		margin-left: -35px
+		&-p-1 
+			font-family: Lato
+			font-size: 20px
+			line-height: 1.2
+			font-weight: 700
+			letter-spacing: 0.025em
+			color: $var10
+			margin-left: 347px
+			margin-top: 23px
+		
+		&-p-2 
+			font-family: Lato
+			font-size: 14px
+			line-height: 23px
+			font-weight: 300
+			letter-spacing: 0.025em
+			color: $var10
+			margin-left: 256px
+		
+		&-img 
+			margin-left: 388px
+			margin-top: 89px
+		
+		&-img 
+			margin-left: 285px
+		
+		&-p-1 
+			margin-left: 242px
+		
+		&-p-2 
+			margin-left: 156px
+		
+	
+	&-center 
+		&-p-1 
+			font-family: Lato
+			font-size: 20px
+			line-height: 1.2
+			font-weight: 700
+			letter-spacing: 0.025em
+			color: $var10
+			margin-left: 185px
+			margin-top: 23px
+		
+		&-p-2 
+			font-family: Lato
+			font-size: 14px
+			line-height: 23px
+			font-weight: 300
+			letter-spacing: 0.025em
+			color: $var10
+			margin-left: 112px
+		
+		&-img 
+			margin-left: 247px
+			margin-top: 89px
+		
+	
+	&-right 
+		&-p-1 
+			font-family: Lato
+			font-size: 20px
+			line-height: 1.2
+			font-weight: 700
+			letter-spacing: 0.025em
+			color: $var10
+			margin-left: 190px
+			margin-top: 23px
+		
+		&-p-2 
+			font-family: Lato
+			font-size: 14px
+			line-height: 23px
+			font-weight: 300
+			letter-spacing: 0.025em
+			color: $var10
+			margin-left: 125px
+		
+		&-img 
+			margin-left: 250px
+			margin-top: 89px
+		
+	
+
+.home 
+	width: 45px
+
+.radio 
+	margin-left: 110px
+	&-up 
+		margin-left: -113px
+	
+	&-down 
+		margin-left: -113px
+	
+
+.mango-people 
+	font-family: Lato
+	font-size: 13px
+	line-height: 1.2
+	font-weight: 400
+	text-transform: uppercase
+	color: $var2
+	height: 47.5px
+	width: 261px
+	margin-left: 225px
+	margin-top: 38px
+	padding-left: 10px
+	text-decoration: none
+
+media screen and (max-width: 1390px) 
+	grid-template-columns: 1fr 1fr
+
+media screen and (max-width: 1220px) 
+	grid-template-columns: 1fr
+	margin-left: 200px
+
+media screen and (max-width: 1060px) 
+	grid-template-columns: 1fr
+	margin-left: 150px
+
+media screen and (max-width: 960px) 
+	grid-template-columns: 1fr
+	margin-left: 75px
+
+media screen and (max-width: 860px) 
+	grid-template-columns: 1fr
+	margin-left: 0px
+
+media screen and (max-width: 1400px) 
+	margin-left: 250px
+
+.down-menu-products-ul 
+	margin-left: 90px
+	margin-top: 59px
+
+.content-menu 
+	display: block
+	height: 1842px
+	margin-left: 180px
+
+.fetured-it 
+	margin-left: -125px
+
+.slider 
+	margin-left: -140px
+
+.you-may-like-also 
+	margin-left: -120px
+
+media screen and (max-width: 1440px) 
+	margin-left: -140px
+
+.feature-box 
+	display: block
+	height: 800px
+
+.mega-box 
+	margin-top: 122px
+	margin-left: -300px
+
+media screen and (max-width: 1290px) 
+	margin-left: 150px
+
+.price 
+	margin-left: 0px
+	margin-top: 5px
+
+.size 
+	margin-left: -110px
+	margin-top: 5px
+
+.range 
+	margin-left: 0px
+
+media screen and (max-width: 1190px) 
+	margin-left: 40px
+
+media screen and (max-width: 1150px) 
+	grid-template-columns: 1fr 1fr 1fr 1fr
+
+.hot-deals, .featured, .accoseriese 
+	padding-left: 0px
+	padding-top: 10px
+
+.mega-box 
+	margin-top: 125px
+	margin-left: -590px
+
+media screen and (max-width: 1070px) 
+	margin-left: -220px
+
+.header 
+	width: 1600px
+	height: 100px
+	background-color: white
+	display: flex
+	margin: 0 auto
+
+.basket 
+	margin-left: -150px
+
+.man, .kids-menu, .woman, .home 
+	padding-left: 0px
+	padding-top: 10px
+
+.mega-box 
+	margin-top: 170px
+	margin-left: 0px
+
+media screen and (max-width: 1000px) 
+	margin-right: 1000px
+
+.product-description 
+	margin-left: -80px
+
+media screen and (max-width: 885px) 
+	margin-left: -780px
+	margin-top: 100px
+
+.header 
+	height: 150px
+
+.mega-box 
+	margin-top: 217px
+	margin-left: 0px
+
+.down-menu-products-ul 
+	margin-left: 10px
+	margin-top: 59px
+
+media screen and (max-width: 1420px) 
+	margin-left: 400px
+	margin-top: 24px
+
+.shopping-cart 
+	margin-left: -100px
+
+media screen and (max-width: 1370px) 
+	display: block
+
+.shopping-cart 
+	margin-left: -150px
+
+media screen and (max-width: 1270px) 
+	margin-left: -200px
+
+media screen and (max-width: 1210px) 
+	margin-left: -220px
+
+media screen and (max-width: 1170px) 
+	margin-left: -230px
+
+media screen and (max-width: 950px) 
+	margin-left: 100px
+	margin-top: 24px
+
+.copirate 
+	padding-left: 128px
+	padding-top: 17px
+
+media screen and (max-width: 1150px) 
+	margin-left: 150px
+	margin-top: 24px
+
+media screen and (max-width: 1320px) 
+	display: block
+
+media screen and (max-width: 1300px) 
+	margin-left: 100px
+
+.fetured-it 
+	margin-left: -185px
+
+.slider 
+	margin-left: -180px
+
+.you-may-like-also 
+	margin-left: -180px
+
+media screen and (max-width: 1100px) 
+	margin-left: 30px
+
+.fetured-it 
+	margin-left: -265px
+
+.slider 
+	margin-left: -260px
+
+.you-may-like-also 
+	margin-left: -270px
+
+.product-description 
+	margin-left: -80px
+
+media screen and (max-width: 1090px) 
+	margin-left: -200px
+
+media screen and (max-width: 900px) 
+	margin-left: -150px
+
